@@ -41,7 +41,9 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Diese Website',
           paragraphs: [
-            'Wardflame.com verwendet keine Werbetracker, keine Analysewerkzeuge und keine nicht notwendigen Cookies. Die Website selbst setzt keine Cookies. Der Hosting- und Sicherheitsanbieter kann begrenzte technische Informationen wie IP-Adresse, User-Agent, angeforderte URL und Zeitstempel in Serverprotokollen verarbeiten, um die Website bereitzustellen und zu schützen. Wir verwenden diese Informationen nicht, um Werbeprofile zu erstellen.',
+            'Wardflame.com verwendet Vercel Web Analytics und Speed Insights, um Seitenaufrufe und Leistungswerte anonym zu messen. Die Dienste setzen keine Cookies. Die aggregierten Messwerte können Zeitstempel, Route oder URL, gefilterte Abfrageparameter, Referrer, ungefähres Land oder Region, Browser, Betriebssystem, Gerätetyp, Netzwerkgeschwindigkeit und Core Web Vitals enthalten. Diese Angaben werden weder einzelnen Besuchern noch IP-Adressen zugeordnet.',
+            'Wir erfassen keine benutzerdefinierten Ereignisse und keine Konto-, Zahlungs- oder Werbekennungen. Wardflame.com verwendet keine Werbetracker und erstellt keine Werbeprofile.',
+            'Der Hosting- und Sicherheitsanbieter kann begrenzte technische Informationen wie IP-Adresse, User-Agent, angeforderte URL und Zeitstempel in Serverprotokollen verarbeiten, um die Website bereitzustellen und zu schützen.',
             'Wenn du einem Link zu Apple oder GitHub folgst, verarbeiten diese Dienste Daten nach ihren eigenen Richtlinien. Informationen in einer öffentlichen GitHub-Supportanfrage sind für andere sichtbar. Gib dort keine Zahlungsdaten oder anderen vertraulichen Informationen an.',
           ],
         },
@@ -190,7 +192,9 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Ce site',
           paragraphs: [
-            'Wardflame.com n’utilise aucun traceur publicitaire, aucun outil d’analyse ni aucun cookie non essentiel, et le site ne dépose directement aucun cookie. Le fournisseur d’hébergement et de sécurité peut traiter des informations techniques limitées, telles que l’adresse IP, le user-agent, l’URL demandée et les horodatages dans les journaux du serveur, afin de fournir et protéger le site. Nous n’utilisons pas ces informations pour créer des profils publicitaires.',
+            'Wardflame.com utilise Vercel Web Analytics et Speed Insights pour mesurer anonymement les pages consultées et les performances. Ces services n’utilisent aucun cookie. Les mesures agrégées peuvent inclure l’horodatage, la route ou l’URL, les paramètres de requête filtrés, le site référent, le pays ou la région approximatifs, le navigateur, le système d’exploitation, le type d’appareil, la vitesse du réseau et les Core Web Vitals. Ces informations ne sont associées ni à un visiteur ni à une adresse IP.',
+            'Nous ne collectons aucun événement personnalisé ni identifiant de compte, de paiement ou de publicité. Wardflame.com n’utilise aucun traceur publicitaire et ne crée aucun profil publicitaire.',
+            'Le fournisseur d’hébergement et de sécurité peut traiter des informations techniques limitées, telles que l’adresse IP, le user-agent, l’URL demandée et les horodatages consignés dans les journaux du serveur, afin de fournir et de protéger le site.',
             'Si vous suivez un lien vers Apple ou GitHub, ces services traitent les données selon leurs propres politiques. Les informations publiées dans une demande d’assistance GitHub publique sont visibles par tous : n’y indiquez aucune donnée de paiement ni autre information sensible.',
           ],
         },
@@ -339,7 +343,9 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Este sitio web',
           paragraphs: [
-            'Wardflame.com no utiliza rastreadores publicitarios, herramientas de análisis ni cookies no esenciales, y el sitio web no instala cookies directamente. El proveedor de alojamiento y seguridad puede tratar cierta información técnica limitada, como la dirección IP, el agente de usuario, la URL solicitada y las marcas de tiempo de los registros del servidor, con el fin de ofrecer y proteger el sitio. No utilizamos esa información para crear perfiles publicitarios.',
+            'Wardflame.com utiliza Vercel Web Analytics y Speed Insights para medir de forma anónima las visitas a páginas y el rendimiento. Estas herramientas no utilizan cookies. Los datos agregados pueden incluir la fecha y hora, la ruta o URL, los parámetros de consulta filtrados, el sitio de procedencia, el país o la región aproximados, el navegador, el sistema operativo, el tipo de dispositivo, la velocidad de la conexión y las métricas Core Web Vitals. Estos datos no se asocian con una persona visitante ni con una dirección IP.',
+            'No recopilamos eventos personalizados, datos de cuentas o pagos ni identificadores publicitarios. Wardflame.com no utiliza rastreadores publicitarios ni crea perfiles publicitarios.',
+            'El proveedor de alojamiento y seguridad puede tratar cierta información técnica limitada, como la dirección IP, el agente de usuario, la URL solicitada y las marcas de tiempo de los registros del servidor, con el fin de ofrecer y proteger el sitio.',
             'Si sigues un enlace a Apple o GitHub, esos servicios tratarán los datos conforme a sus propias políticas. La información que publiques en una solicitud de soporte pública de GitHub será visible para otras personas, así que no incluyas datos de pago ni otra información sensible.',
           ],
         },
@@ -488,7 +494,9 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Bu web sitesi',
           paragraphs: [
-            'Wardflame.com reklam izleyicileri, analiz araçları veya zorunlu olmayan çerezler kullanmaz ve web sitesi doğrudan çerez ayarlamaz. Barındırma ve güvenlik sağlayıcısı; siteyi sunmak ve korumak amacıyla sunucu günlüklerinde IP adresi, kullanıcı aracısı, istenen URL ve zaman damgası gibi sınırlı teknik bilgileri işleyebilir. Bu bilgileri reklam profilleri oluşturmak için kullanmayız.',
+            'Wardflame.com, sayfa görüntülemelerini ve performansı anonim olarak ölçmek için Vercel Web Analytics ve Speed Insights kullanır. Bu araçlar çerez kullanmaz. Toplulaştırılmış veriler zaman damgası, rota veya URL, filtrelenmiş sorgu parametreleri, yönlendiren site, yaklaşık ülke veya bölge, tarayıcı, işletim sistemi, cihaz türü, ağ hızı ve Core Web Vitals ölçümlerini içerebilir. Bu veriler bir ziyaretçiyle veya IP adresiyle ilişkilendirilmez.',
+            'Özel etkinlikler, hesap ya da ödeme bilgileri veya reklam tanımlayıcıları toplamayız. Wardflame.com reklam izleyicileri kullanmaz ve reklam profilleri oluşturmaz.',
+            'Barındırma ve güvenlik sağlayıcısı; siteyi sunmak ve korumak amacıyla sunucu günlüklerinde IP adresi, kullanıcı aracısı, istenen URL ve zaman damgası gibi sınırlı teknik bilgileri işleyebilir.',
             'Apple veya GitHub bağlantısını izlerseniz bu hizmetler verileri kendi politikaları kapsamında işler. Herkese açık bir GitHub destek talebinde paylaştığınız bilgiler başkaları tarafından görülebilir; bu nedenle ödeme bilgilerini veya diğer hassas bilgileri eklemeyin.',
           ],
         },

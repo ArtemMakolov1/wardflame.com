@@ -23,7 +23,9 @@ export default function PrivacyPage() {
       <p>Deleting Wardflame removes its locally stored data, subject to device and App Store backup mechanisms controlled by Apple. The game does not maintain a remote player account or cloud profile.</p>
 
       <h2>This website</h2>
-      <p>Wardflame.com does not use advertising trackers, analytics, or non-essential cookies, and the website does not set cookies directly. The hosting and security provider may process limited technical information such as IP address, user agent, requested URL, and timestamps in server logs to deliver and protect the site. We do not use that information to build advertising profiles.</p>
+      <p>Wardflame.com uses Vercel Web Analytics and Speed Insights to measure anonymous page views and real-world performance. These services do not use cookies. Vercel processes aggregated information such as the timestamp, route or URL, filtered query parameters, referrer, approximate country or region, browser, operating system, device type, network speed, and Core Web Vitals. The data is not associated with an individual visitor or IP address.</p>
+      <p>We do not send custom events, account information, payment details, or advertising identifiers. Wardflame.com has no advertising trackers and does not build advertising profiles.</p>
+      <p>The hosting and security provider may also process limited technical information such as IP address, user agent, requested URL, and timestamps in server logs to deliver and protect the site.</p>
       <p>If you follow a link to Apple or GitHub, those services process data under their own policies. Information you post in a public GitHub support request is visible to others, so do not include payment details or other sensitive information.</p>
 
       <h2>Changes and contact</h2>
