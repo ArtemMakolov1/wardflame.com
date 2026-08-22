@@ -1,0 +1,416 @@
+import Image from 'next/image';
+import { LOCALES, type Locale } from '@/lib/locales';
+import { SiteFooter, SiteHeader } from './SiteChrome';
+
+const content = {
+  en: {
+    kicker: 'Top-down survival crafting · iPhone & iPad',
+    summary: 'Mine and cut timber by day. Build a power grid, automate production, and defend the obelisk when night brings the horde.',
+    watch: 'Explore the game',
+    actual: 'Actual gameplay',
+    heroCaption: 'Blood moon · Night 20',
+    status: 'In development',
+    platform: 'iOS / iPadOS 17+',
+    languages: 'EN / RU / DE / FR / ES / TR',
+    introIndex: '01 / The game',
+    introTitle: 'One map. Two shifts.',
+    dayTitle: 'Day',
+    dayText: 'Scout the world, mine mineral veins, fell trees, craft equipment, and lay out a base you can actually run.',
+    nightTitle: 'Night',
+    nightText: 'Nests send growing waves toward the obelisk. Break the nests to thin the horde, or build enough firepower to hold.',
+    dayCaption: 'Daylight · Build and prepare',
+    nightCaption: 'Blood moon · Hold the perimeter',
+    systemIndex: '02 / The systems',
+    systemTitle: 'The base is a machine.',
+    features: [
+      { number: '43', unit: 'building types, including the obelisk', title: 'Build a working base', text: 'Connect generators, batteries, lamps, production machines, and six kinds of turrets through an energy network.' },
+      { number: '58', unit: 'technologies across five eras', title: 'Advance through five eras', text: 'Start with hand tools and timber. Reach electricity, powered equipment, and nanotech without skipping the work between.' },
+      { number: '08', unit: 'every eighth night, the Matriarch arrives', title: 'Adapt to the world', text: 'Rain, storms, fog, meteors, and auroras affect the simulation. Special nights change the fight.' },
+    ],
+    powerCaption: 'Power network · Machines share generation and storage',
+    progressIndex: '03 / Progression',
+    progressTitle: 'From hand tools to a powered settlement.',
+    progressText: 'Research opens new ways to gather, build, defend, and automate. The technology tree spans five distinct eras, and the workshop turns raw materials into weapons, armor, and suit modules.',
+    techCaption: 'Technology tree · Electricity era',
+    craftCaption: 'Workbench · Equipment crafting',
+    releaseIndex: '04 / Release',
+    releaseTitle: 'Play the first day and night free.',
+    releaseText: 'A single purchase unlocks the complete game: every night, era, technology, building, weapon, and armor set. The App Store will show the local price when Wardflame is ready.',
+    releaseStatus: 'App Store release · In development',
+  },
+  ru: {
+    kicker: 'Выживание и крафт с видом сверху · iPhone и iPad',
+    summary: 'Днём добывай ресурсы и строй энергосеть. Ночью автоматизируй оборону и защищай обелиск от нарастающих волн тварей.',
+    watch: 'Посмотреть игру',
+    actual: 'Настоящий кадр игры',
+    heroCaption: 'Кровавая луна · Ночь 20',
+    status: 'В разработке',
+    platform: 'iOS / iPadOS 17+',
+    languages: 'EN / RU / DE / FR / ES / TR',
+    introIndex: '01 / Игра',
+    introTitle: 'Одна карта. Две смены.',
+    dayTitle: 'День',
+    dayText: 'Разведывай мир, разрабатывай жилы, вали лес, собирай снаряжение и строй базу, которая действительно работает.',
+    nightTitle: 'Ночь',
+    nightText: 'Гнёзда посылают к обелиску всё более сильные волны. Уничтожай гнёзда или готовь оборону, способную выдержать натиск.',
+    dayCaption: 'День · Стройка и подготовка',
+    nightCaption: 'Кровавая луна · Оборона периметра',
+    systemIndex: '02 / Системы',
+    systemTitle: 'База работает как машина.',
+    features: [
+      { number: '43', unit: 'типа построек, включая обелиск', title: 'Построй рабочую базу', text: 'Соединяй генераторы, аккумуляторы, свет, станки и шесть видов турелей в единую энергосеть.' },
+      { number: '58', unit: 'технологий в пяти эпохах', title: 'Пройди пять эпох', text: 'Начни с ручных инструментов и дерева. Доберись до электричества, техники и нанотехнологий без пустых перескоков.' },
+      { number: '08', unit: 'каждую восьмую ночь приходит матка', title: 'Подстраивайся под мир', text: 'Дождь, грозы, туман, метеоры и сияние влияют на симуляцию. Особые ночи меняют правила боя.' },
+    ],
+    powerCaption: 'Энергосеть · Машины делят генерацию и запас',
+    progressIndex: '03 / Развитие',
+    progressTitle: 'От ручного труда до механизированного поселения.',
+    progressText: 'Исследования открывают новые способы добывать, строить, обороняться и автоматизировать производство. Пять эпох ведут от простых орудий к электричеству, а верстак превращает сырьё в оружие, броню и модули костюма.',
+    techCaption: 'Дерево технологий · Эпоха электричества',
+    craftCaption: 'Верстак · Создание снаряжения',
+    releaseIndex: '04 / Выпуск',
+    releaseTitle: 'Первый день и первая ночь — бесплатно.',
+    releaseText: 'Одна покупка открывает полную игру: все ночи, эпохи, технологии, постройки, оружие и броню. Когда Wardflame будет готова, App Store покажет цену для вашего региона.',
+    releaseStatus: 'Выпуск в App Store · В разработке',
+  },
+  de: {
+    kicker: 'Survival-Crafting aus der Vogelperspektive · iPhone & iPad',
+    summary: 'Baue tagsüber Erz ab und fälle Bäume. Errichte ein Stromnetz, automatisiere die Produktion und verteidige den Obelisken, wenn nachts die Horde kommt.',
+    watch: 'Das Spiel entdecken',
+    actual: 'Echtes Gameplay',
+    heroCaption: 'Blutmond · Nacht 20',
+    status: 'In Entwicklung',
+    platform: 'iOS / iPadOS 17+',
+    languages: 'EN / RU / DE / FR / ES / TR',
+    introIndex: '01 / Das Spiel',
+    introTitle: 'Eine Karte. Zwei Schichten.',
+    dayTitle: 'Tag',
+    dayText: 'Erkunde die Welt, baue Vorkommen ab, fälle Bäume, fertige Ausrüstung und plane eine Basis, die du wirklich betreiben kannst.',
+    nightTitle: 'Nacht',
+    nightText: 'Die Nester schicken immer stärkere Wellen zum Obelisken. Zerstöre die Nester, um die Horde auszudünnen, oder baue genug Feuerkraft auf, um standzuhalten.',
+    dayCaption: 'Tageslicht · Bauen und vorbereiten',
+    nightCaption: 'Blutmond · Den Außenring halten',
+    systemIndex: '02 / Die Systeme',
+    systemTitle: 'Die Basis ist eine Maschine.',
+    features: [
+      { number: '43', unit: 'Gebäudetypen, einschließlich des Obelisken', title: 'Baue eine funktionierende Basis', text: 'Verbinde Generatoren, Batterien, Lampen, Produktionsmaschinen und sechs Geschütztypen zu einem Energienetz.' },
+      { number: '58', unit: 'Technologien in fünf Epochen', title: 'Durchlaufe fünf Epochen', text: 'Beginne mit Handwerkzeugen und Holz. Arbeite dich über Elektrizität und angetriebene Geräte bis zur Nanotechnologie vor, ohne die Schritte dazwischen zu überspringen.' },
+      { number: '08', unit: 'In jeder achten Nacht erscheint die Matriarchin', title: 'Passe dich der Welt an', text: 'Regen, Stürme, Nebel, Meteore und Polarlichter beeinflussen die Simulation. Besondere Nächte verändern den Kampf.' },
+    ],
+    powerCaption: 'Energienetz · Maschinen nutzen Erzeugung und Speicher gemeinsam',
+    progressIndex: '03 / Fortschritt',
+    progressTitle: 'Von Handwerkzeugen zur elektrifizierten Siedlung.',
+    progressText: 'Forschung eröffnet neue Wege zum Sammeln, Bauen, Verteidigen und Automatisieren. Der Technologiebaum umfasst fünf klar getrennte Epochen, und an der Werkbank werden aus Rohstoffen Waffen, Rüstungen und Anzugmodule.',
+    techCaption: 'Technologiebaum · Epoche der Elektrizität',
+    craftCaption: 'Werkbank · Ausrüstung fertigen',
+    releaseIndex: '04 / Veröffentlichung',
+    releaseTitle: 'Spiele den ersten Tag und die erste Nacht kostenlos.',
+    releaseText: 'Ein einmaliger Kauf schaltet das vollständige Spiel frei: alle Nächte, Epochen, Technologien, Gebäude, Waffen und Rüstungssets. Sobald Wardflame bereit ist, zeigt der App Store den Preis für deine Region an.',
+    releaseStatus: 'Veröffentlichung im App Store · In Entwicklung',
+  },
+  fr: {
+    kicker: 'Survie et artisanat en vue du dessus · iPhone et iPad',
+    summary: 'Le jour, exploitez le minerai et abattez des arbres. Construisez un réseau électrique, automatisez la production et défendez l’obélisque lorsque la horde arrive à la nuit tombée.',
+    watch: 'Découvrir le jeu',
+    actual: 'Capture réelle du jeu',
+    heroCaption: 'Lune de sang · Nuit 20',
+    status: 'En développement',
+    platform: 'iOS / iPadOS 17+',
+    languages: 'EN / RU / DE / FR / ES / TR',
+    introIndex: '01 / Le jeu',
+    introTitle: 'Une carte. Deux temps.',
+    dayTitle: 'Jour',
+    dayText: 'Explorez le monde, exploitez les filons, abattez des arbres, fabriquez votre équipement et organisez une base que vous pourrez réellement faire fonctionner.',
+    nightTitle: 'Nuit',
+    nightText: 'Les nids lancent des vagues toujours plus puissantes vers l’obélisque. Détruisez-les pour éclaircir la horde, ou rassemblez assez de puissance de feu pour tenir.',
+    dayCaption: 'Plein jour · Construire et se préparer',
+    nightCaption: 'Lune de sang · Tenir le périmètre',
+    systemIndex: '02 / Les systèmes',
+    systemTitle: 'La base est une machine.',
+    features: [
+      { number: '43', unit: 'types de bâtiments, obélisque compris', title: 'Construisez une base fonctionnelle', text: 'Reliez générateurs, batteries, lampes, machines de production et six types de tourelles au sein d’un même réseau électrique.' },
+      { number: '58', unit: 'technologies réparties sur cinq ères', title: 'Traversez cinq ères', text: 'Commencez avec des outils manuels et du bois. Atteignez l’électricité, les équipements motorisés et les nanotechnologies sans brûler les étapes.' },
+      { number: '08', unit: 'Toutes les huit nuits, la Matriarche arrive', title: 'Adaptez-vous au monde', text: 'La pluie, les orages, le brouillard, les météores et les aurores influent sur la simulation. Les nuits spéciales transforment le combat.' },
+    ],
+    powerCaption: 'Réseau électrique · Les machines partagent production et stockage',
+    progressIndex: '03 / Progression',
+    progressTitle: 'Des outils manuels à une colonie électrifiée.',
+    progressText: 'La recherche ouvre de nouvelles façons de récolter, construire, défendre et automatiser. L’arbre technologique couvre cinq ères distinctes, tandis que l’établi transforme les matières premières en armes, armures et modules de combinaison.',
+    techCaption: 'Arbre technologique · Ère de l’électricité',
+    craftCaption: 'Établi · Fabrication d’équipement',
+    releaseIndex: '04 / Sortie',
+    releaseTitle: 'Le premier jour et la première nuit sont gratuits.',
+    releaseText: 'Un achat unique débloque le jeu complet : toutes les nuits, les ères, les technologies, les bâtiments, les armes et les ensembles d’armure. L’App Store affichera le prix dans votre région lorsque Wardflame sera prêt.',
+    releaseStatus: 'Sortie sur l’App Store · En développement',
+  },
+  es: {
+    kicker: 'Supervivencia y fabricación con vista cenital · iPhone y iPad',
+    summary: 'Extrae minerales y tala árboles durante el día. Construye una red eléctrica, automatiza la producción y defiende el obelisco cuando la noche trae la horda.',
+    watch: 'Descubre el juego',
+    actual: 'Imagen real del juego',
+    heroCaption: 'Luna de sangre · Noche 20',
+    status: 'En desarrollo',
+    platform: 'iOS / iPadOS 17+',
+    languages: 'EN / RU / DE / FR / ES / TR',
+    introIndex: '01 / El juego',
+    introTitle: 'Un mapa. Dos turnos.',
+    dayTitle: 'Día',
+    dayText: 'Explora el mundo, extrae vetas de mineral, tala árboles, fabrica equipo y organiza una base que funcione de verdad.',
+    nightTitle: 'Noche',
+    nightText: 'Los nidos envían oleadas cada vez mayores hacia el obelisco. Destruye los nidos para reducir la horda o reúne suficiente potencia de fuego para resistir.',
+    dayCaption: 'Luz del día · Construye y prepárate',
+    nightCaption: 'Luna de sangre · Defiende el perímetro',
+    systemIndex: '02 / Los sistemas',
+    systemTitle: 'La base es una máquina.',
+    features: [
+      { number: '43', unit: 'tipos de construcción, incluido el obelisco', title: 'Construye una base funcional', text: 'Conecta generadores, baterías, lámparas, máquinas de producción y seis tipos de torretas mediante una red eléctrica.' },
+      { number: '58', unit: 'tecnologías repartidas en cinco eras', title: 'Avanza por cinco eras', text: 'Empieza con herramientas manuales y madera. Llega a la electricidad, los equipos motorizados y la nanotecnología sin saltarte el trabajo necesario.' },
+      { number: '08', unit: 'cada octava noche llega la Matriarca', title: 'Adáptate al mundo', text: 'La lluvia, las tormentas, la niebla, los meteoritos y las auroras afectan a la simulación. Las noches especiales cambian el combate.' },
+    ],
+    powerCaption: 'Red eléctrica · Las máquinas comparten generación y almacenamiento',
+    progressIndex: '03 / Progresión',
+    progressTitle: 'De las herramientas manuales a un asentamiento electrificado.',
+    progressText: 'La investigación abre nuevas formas de recolectar, construir, defender y automatizar. El árbol tecnológico abarca cinco eras distintas, y el taller transforma materias primas en armas, armaduras y módulos para el traje.',
+    techCaption: 'Árbol tecnológico · Era de la electricidad',
+    craftCaption: 'Banco de trabajo · Fabricación de equipo',
+    releaseIndex: '04 / Lanzamiento',
+    releaseTitle: 'Juega gratis el primer día y la primera noche.',
+    releaseText: 'Una sola compra desbloquea el juego completo: todas las noches, eras, tecnologías, construcciones, armas y conjuntos de armadura. App Store mostrará el precio local cuando Wardflame esté listo.',
+    releaseStatus: 'Lanzamiento en App Store · En desarrollo',
+  },
+  tr: {
+    kicker: 'Üstten görünüşlü hayatta kalma ve üretim · iPhone ve iPad',
+    summary: 'Gündüz maden çıkar ve ağaç kes. Bir enerji şebekesi kur, üretimi otomatikleştir ve gece yaratık sürüsü geldiğinde dikilitaşı savun.',
+    watch: 'Oyunu keşfet',
+    actual: 'Gerçek oyun görüntüsü',
+    heroCaption: 'Kanlı ay · 20. gece',
+    status: 'Geliştirme aşamasında',
+    platform: 'iOS / iPadOS 17+',
+    languages: 'EN / RU / DE / FR / ES / TR',
+    introIndex: '01 / Oyun',
+    introTitle: 'Tek harita. İki vardiya.',
+    dayTitle: 'Gündüz',
+    dayText: 'Dünyayı keşfet, maden damarlarını işle, ağaçları kes, ekipman üret ve gerçekten işleyen bir üs kur.',
+    nightTitle: 'Gece',
+    nightText: 'Yuvalardan dikilitaşa doğru giderek büyüyen dalgalar çıkar. Sürüyü seyrekleştirmek için yuvaları yok et veya saldırıya dayanacak kadar ateş gücü kur.',
+    dayCaption: 'Gün ışığı · İnşa et ve hazırlan',
+    nightCaption: 'Kanlı ay · Çevreyi savun',
+    systemIndex: '02 / Sistemler',
+    systemTitle: 'Üs bir makinedir.',
+    features: [
+      { number: '43', unit: 'dikilitaş dahil yapı türü', title: 'İşleyen bir üs kur', text: 'Jeneratörleri, bataryaları, lambaları, üretim makinelerini ve altı tür tareti bir enerji şebekesinde birbirine bağla.' },
+      { number: '58', unit: 'beş çağa yayılan teknoloji', title: 'Beş çağ boyunca ilerle', text: 'El aletleri ve keresteyle başla. Aradaki emeği atlamadan elektriğe, motorlu ekipmana ve nanoteknolojiye ulaş.' },
+      { number: '08', unit: 'her sekizinci gece Ana Kraliçe gelir', title: 'Dünyaya uyum sağla', text: 'Yağmur, fırtına, sis, meteorlar ve kutup ışıkları simülasyonu etkiler. Özel geceler savaşı değiştirir.' },
+    ],
+    powerCaption: 'Enerji şebekesi · Makineler üretim ve depolama kapasitesini paylaşır',
+    progressIndex: '03 / İlerleme',
+    progressTitle: 'El aletlerinden enerjiyle çalışan bir yerleşime.',
+    progressText: 'Araştırma; toplamak, inşa etmek, savunmak ve otomatikleştirmek için yeni yollar açar. Teknoloji ağacı beş farklı çağa yayılır; tezgâh ise ham maddeleri silahlara, zırhlara ve teçhizat modüllerine dönüştürür.',
+    techCaption: 'Teknoloji ağacı · Elektrik çağı',
+    craftCaption: 'Tezgâh · Ekipman üretimi',
+    releaseIndex: '04 / Çıkış',
+    releaseTitle: 'İlk gündüzü ve ilk geceyi ücretsiz oyna.',
+    releaseText: 'Tek bir satın alım eksiksiz oyunun kilidini açar: tüm geceler, çağlar, teknolojiler, yapılar, silahlar ve zırh setleri. Wardflame hazır olduğunda App Store bölgenizdeki fiyatı gösterecek.',
+    releaseStatus: 'App Store çıkışı · Geliştirme aşamasında',
+  },
+};
+
+const mediaCopy: Record<Locale, {
+  schemaDescription: string;
+  heroAlt: string;
+  dayAlt: string;
+  nightAlt: string;
+  powerAlt: string;
+  techAlt: string;
+  craftAlt: string;
+}> = {
+  en: {
+    schemaDescription: 'A pixel-art survival crafting and base-defense game for iPhone and iPad.',
+    heroAlt: 'A fortified Wardflame base defending against a blood moon wave',
+    dayAlt: 'A Wardflame base in daylight',
+    nightAlt: 'Defending the base during a special night',
+    powerAlt: 'Wardflame power network connecting the base machinery',
+    techAlt: 'Wardflame technology tree',
+    craftAlt: 'Crafting a weapon at the workbench',
+  },
+  ru: {
+    schemaDescription: 'Пиксельная выживалка с крафтом и обороной базы для iPhone и iPad.',
+    heroAlt: 'Укреплённая база Wardflame отражает волну кровавой луны',
+    dayAlt: 'База Wardflame днём',
+    nightAlt: 'Оборона базы в особую ночь',
+    powerAlt: 'Энергосеть Wardflame соединяет базовые машины',
+    techAlt: 'Дерево технологий Wardflame',
+    craftAlt: 'Создание оружия на верстаке',
+  },
+  de: {
+    schemaDescription: 'Ein Pixel-Art-Spiel für iPhone und iPad rund um Überleben, Crafting und Basisverteidigung.',
+    heroAlt: 'Eine befestigte Wardflame-Basis wehrt eine Welle während des Blutmonds ab',
+    dayAlt: 'Eine Wardflame-Basis bei Tageslicht',
+    nightAlt: 'Verteidigung der Basis in einer besonderen Nacht',
+    powerAlt: 'Das Energienetz von Wardflame verbindet die Maschinen der Basis',
+    techAlt: 'Der Technologiebaum von Wardflame',
+    craftAlt: 'Eine Waffe wird an der Werkbank gefertigt',
+  },
+  fr: {
+    schemaDescription: 'Un jeu en pixel art de survie, d’artisanat et de défense de base sur iPhone et iPad.',
+    heroAlt: 'Une base fortifiée de Wardflame repousse une vague pendant la lune de sang',
+    dayAlt: 'Une base de Wardflame en plein jour',
+    nightAlt: 'Défense de la base pendant une nuit spéciale',
+    powerAlt: 'Le réseau électrique de Wardflame relie les machines de la base',
+    techAlt: 'L’arbre technologique de Wardflame',
+    craftAlt: 'Fabrication d’une arme à l’établi',
+  },
+  es: {
+    schemaDescription: 'Un juego de supervivencia, fabricación y defensa de bases con arte pixelado para iPhone y iPad.',
+    heroAlt: 'Una base fortificada de Wardflame se defiende de una oleada durante una luna de sangre',
+    dayAlt: 'Una base de Wardflame a la luz del día',
+    nightAlt: 'Defensa de la base durante una noche especial',
+    powerAlt: 'La red eléctrica de Wardflame conecta las máquinas de la base',
+    techAlt: 'Árbol tecnológico de Wardflame',
+    craftAlt: 'Fabricación de un arma en el banco de trabajo',
+  },
+  tr: {
+    schemaDescription: 'iPhone ve iPad için piksel sanatlı bir hayatta kalma, üretim ve üs savunma oyunu.',
+    heroAlt: 'Wardflame’de tahkim edilmiş bir üs kanlı ay dalgasına karşı savunuluyor',
+    dayAlt: 'Gün ışığında bir Wardflame üssü',
+    nightAlt: 'Özel bir gecede üssü savunma',
+    powerAlt: 'Wardflame enerji şebekesi üs makinelerini birbirine bağlıyor',
+    techAlt: 'Wardflame teknoloji ağacı',
+    craftAlt: 'Tezgâhta silah üretimi',
+  },
+};
+
+export function Landing({ locale }: { locale: Locale }) {
+  const t = content[locale];
+  const media = mediaCopy[locale];
+  const isRu = locale === 'ru';
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        '@id': 'https://wardflame.com/#website',
+        url: 'https://wardflame.com/',
+        name: 'Wardflame',
+        alternateName: 'wardflame.com',
+        inLanguage: [...LOCALES],
+      },
+      {
+        '@type': ['VideoGame', 'MobileApplication'],
+        '@id': 'https://wardflame.com/#game',
+        name: 'Wardflame',
+        url: 'https://wardflame.com/',
+        description: media.schemaDescription,
+        image: 'https://wardflame.com/media/night.png',
+        applicationCategory: 'GameApplication',
+        operatingSystem: ['iOS 17 or later', 'iPadOS 17 or later'],
+        gamePlatform: ['iPhone', 'iPad'],
+        genre: ['Survival', 'Crafting', 'Base defense'],
+        inLanguage: [...LOCALES],
+      },
+    ],
+  };
+
+  return (
+    <div lang={locale}>
+      <SiteHeader locale={locale} />
+      <main>
+        <section className="hero" id="top" aria-labelledby="hero-title">
+          <div className="hero-copy">
+            <p className="kicker">{t.kicker}</p>
+            <h1 id="hero-title">Wardflame</h1>
+            <p className="summary">{t.summary}</p>
+            <a className="text-link" href="#game">{t.watch}<span aria-hidden="true">↘</span></a>
+          </div>
+
+          <figure className="game-frame hero-frame">
+            <Image
+              src="/media/night.png"
+              width={2144}
+              height={1206}
+              preload
+              fetchPriority="high"
+              sizes="(max-width: 900px) 100vw, 64vw"
+              alt={media.heroAlt}
+            />
+            <figcaption><span>{t.actual}</span><span>{t.heroCaption}</span></figcaption>
+          </figure>
+        </section>
+
+        <div className="status-strip" aria-label={t.status}>
+          <span><i aria-hidden="true" />{t.status}</span>
+          <span>{t.platform}</span>
+          <span>{t.languages}</span>
+        </div>
+
+        <section className="section intro" id="game" aria-labelledby="game-title">
+          <div className="section-heading">
+            <p className="section-index">{t.introIndex}</p>
+            <h2 id="game-title">{t.introTitle}</h2>
+          </div>
+          <div className="day-night-copy">
+            <article><h3>{t.dayTitle}</h3><p>{t.dayText}</p></article>
+            <article><h3>{t.nightTitle}</h3><p>{t.nightText}</p></article>
+          </div>
+          <div className="image-pair">
+            <figure>
+              <Image src="/media/day.png" width={2144} height={1206} sizes="(max-width: 760px) 100vw, 50vw" alt={media.dayAlt} />
+              <figcaption>{t.dayCaption}</figcaption>
+            </figure>
+            <figure>
+              <Image src="/media/night.png" width={2144} height={1206} sizes="(max-width: 760px) 100vw, 50vw" alt={media.nightAlt} />
+              <figcaption>{t.nightCaption}</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section className="section systems" aria-labelledby="systems-title">
+          <div className="section-heading">
+            <p className="section-index">{t.systemIndex}</p>
+            <h2 id="systems-title">{t.systemTitle}</h2>
+          </div>
+          <div className="feature-list">
+            {t.features.map((feature, index) => (
+              <article className="feature-row" key={feature.title}>
+                <p className="feature-order">0{index + 1}</p>
+                <div><h3>{feature.title}</h3><p>{feature.text}</p></div>
+                <div className="feature-stat"><strong>{feature.number}</strong><span>{feature.unit}</span></div>
+              </article>
+            ))}
+          </div>
+          <figure className="wide-frame">
+            <Image src="/media/power.png" width={2144} height={1206} sizes="100vw" alt={media.powerAlt} />
+            <figcaption>{t.powerCaption}</figcaption>
+          </figure>
+        </section>
+
+        <section className="section progression" aria-labelledby="progress-title">
+          <div className="progress-copy">
+            <p className="section-index">{t.progressIndex}</p>
+            <h2 id="progress-title">{t.progressTitle}</h2>
+            <p>{t.progressText}</p>
+          </div>
+          <div className="progress-media">
+            <figure>
+              <Image src={isRu ? '/media/tech-ru.png' : '/media/tech-en.png'} width={2144} height={1206} sizes="(max-width: 900px) 100vw, 68vw" alt={media.techAlt} />
+              <figcaption>{t.techCaption}</figcaption>
+            </figure>
+            <figure className="craft-frame">
+              <Image src={isRu ? '/media/craft-ru.png' : '/media/craft-en.png'} width={2144} height={1206} sizes="(max-width: 900px) 100vw, 42vw" alt={media.craftAlt} />
+              <figcaption>{t.craftCaption}</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section className="release" aria-labelledby="release-title">
+          <p className="section-index">{t.releaseIndex}</p>
+          <h2 id="release-title">{t.releaseTitle}</h2>
+          <p>{t.releaseText}</p>
+          <span className="release-status"><i aria-hidden="true" />{t.releaseStatus}</span>
+        </section>
+      </main>
+      <SiteFooter locale={locale} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
+    </div>
+  );
+}
