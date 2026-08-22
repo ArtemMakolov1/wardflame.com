@@ -122,12 +122,12 @@ img { max-width: 100%; }
   min-height: calc(100svh - 88px);
   padding: 72px 0 58px;
   display: grid;
-  grid-template-columns: minmax(290px, .67fr) minmax(540px, 1.33fr);
+  grid-template-columns: minmax(360px, .78fr) minmax(500px, 1.22fr);
   align-items: center;
-  gap: clamp(44px, 6vw, 104px);
+  gap: clamp(32px, 4vw, 72px);
 }
 
-.hero-copy { padding-bottom: 32px; }
+.hero-copy { min-width: 0; padding-bottom: 32px; }
 
 .kicker,
 .section-index,
@@ -142,10 +142,11 @@ img { max-width: 100%; }
 .hero h1 {
   margin: 16px 0 0;
   color: var(--paper-bright);
-  font-size: clamp(62px, 8vw, 126px);
+  font-size: clamp(56px, 5.8vw, 92px);
   font-weight: 740;
   line-height: .85;
   letter-spacing: -.077em;
+  white-space: nowrap;
 }
 
 .summary {
@@ -463,7 +464,7 @@ a:focus-visible {
   .site-header { height: 74px; }
   .hero { min-height: auto; padding: 68px 0 88px; grid-template-columns: 1fr; gap: 56px; }
   .hero-copy { max-width: 720px; padding-bottom: 0; }
-  .hero h1 { font-size: clamp(65px, 16vw, 112px); }
+  .hero h1 { font-size: clamp(58px, 12.5vw, 104px); }
   .hero-frame img { box-shadow: 9px 9px 0 #2b2d24; }
   .progress-copy { grid-template-columns: 1fr 1.2fr; }
   .progress-copy > p:last-child { grid-column: 2; }
