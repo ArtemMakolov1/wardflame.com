@@ -82,7 +82,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Unterstützte Geräte',
           paragraphs: [
-            'Der aktuelle Build ist für iPhone und iPad mit iOS beziehungsweise iPadOS 17.0 oder neuer vorgesehen. Wardflame wird im Querformat gespielt und unterstützt Englisch, Russisch, Deutsch, Französisch, Spanisch und Türkisch.',
+            'Der aktuelle Build ist für iPhone und iPad mit iOS beziehungsweise iPadOS 17.0 oder neuer vorgesehen. Wardflame wird im Querformat gespielt. Im aktuellen Sprachmenü des Spiels sind Englisch und Russisch verfügbar; diese Website ist zusätzlich auf Deutsch, Französisch, Spanisch und Türkisch verfügbar.',
           ],
         },
         {
@@ -233,7 +233,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Appareils compatibles',
           paragraphs: [
-            'La version actuelle cible les iPhone et iPad sous iOS ou iPadOS 17.0 ou version ultérieure. Wardflame se joue en mode paysage et prend en charge l’anglais, le russe, l’allemand, le français, l’espagnol et le turc.',
+            'La version actuelle cible les iPhone et iPad sous iOS ou iPadOS 17.0 ou version ultérieure. Wardflame se joue en mode paysage. Le menu des langues du jeu propose actuellement l’anglais et le russe ; ce site est également disponible en allemand, français, espagnol et turc.',
           ],
         },
         {
@@ -384,7 +384,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Dispositivos compatibles',
           paragraphs: [
-            'La versión actual está destinada a iPhone y iPad con iOS o iPadOS 17.0 o posterior. Wardflame se juega en horizontal y es compatible con inglés, ruso, alemán, francés, español y turco.',
+            'La versión actual está destinada a iPhone y iPad con iOS o iPadOS 17.0 o posterior. Wardflame se juega en horizontal. El menú de idiomas del juego incluye actualmente inglés y ruso; este sitio web también está disponible en alemán, francés, español y turco.',
           ],
         },
         {
@@ -535,7 +535,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Desteklenen cihazlar',
           paragraphs: [
-            'Mevcut sürüm, iOS veya iPadOS 17.0 ya da sonraki bir sürümü çalıştıran iPhone ve iPad cihazlarını hedefler. Wardflame yatay konumda oynanır ve İngilizce, Rusça, Almanca, Fransızca, İspanyolca ve Türkçeyi destekler.',
+            'Mevcut sürüm, iOS veya iPadOS 17.0 ya da sonraki bir sürümü çalıştıran iPhone ve iPad cihazlarını hedefler. Wardflame yatay konumda oynanır. Oyunun mevcut dil menüsünde İngilizce ve Rusça bulunur; bu web sitesi ayrıca Almanca, Fransızca, İspanyolca ve Türkçe olarak da sunulur.',
           ],
         },
         {

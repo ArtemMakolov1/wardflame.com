@@ -25,7 +25,7 @@ export default function SupportPage() {
       </ul>
 
       <h2>Supported devices</h2>
-      <p>The current build targets iPhone and iPad running iOS or iPadOS 17.0 or later. Wardflame plays in landscape and supports English, Russian, German, French, Spanish, and Turkish.</p>
+      <p>The current build targets iPhone and iPad running iOS or iPadOS 17.0 or later. Wardflame plays in landscape. The current in-game language menu includes English and Russian; this website is also available in German, French, Spanish, and Turkish.</p>
 
       <h2>Purchases and restoration</h2>
       <p>The first in-game day and night are free. A single non-consumable purchase unlocks the full game. To restore it, use Restore Purchase on the unlock screen while signed in with the Apple Account that made the purchase.</p>
