@@ -1,6 +1,6 @@
 # Wardflame website
 
-Official bilingual website for Wardflame, a survival crafting and base-defense game for iPhone and iPad.
+Official multilingual website for Wardflame, a survival crafting and base-defense game for iPhone and iPad.
 
 ## Stack
 
@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-The English site is at `/`; Russian pages are under `/ru`. Privacy, support, and terms pages are available in both languages.
+The English site is at `/`. Russian, German, French, Spanish, and Turkish pages use the `/ru`, `/de`, `/fr`, `/es`, and `/tr` prefixes. Privacy, support, and terms pages are available in all six languages.
 
 ## Checks
 

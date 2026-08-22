@@ -45,7 +45,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
     ru: { line: 'Независимая игра для iPhone и iPad', privacy: 'Конфиденциальность', support: 'Поддержка', terms: 'Условия' },
     de: { line: 'Ein unabhängiges Spiel für iPhone und iPad', privacy: 'Datenschutz', support: 'Support', terms: 'Bedingungen' },
     fr: { line: 'Un jeu indépendant pour iPhone et iPad', privacy: 'Confidentialité', support: 'Assistance', terms: 'Conditions' },
-    es: { line: 'Un juego independiente para iPhone y iPad', privacy: 'Privacidad', support: 'Soporte', terms: 'Condiciones' },
+    es: { line: 'Un juego independiente para iPhone y iPad', privacy: 'Privacidad', support: 'Soporte', terms: 'Términos' },
     tr: { line: 'iPhone ve iPad için bağımsız bir oyun', privacy: 'Gizlilik', support: 'Destek', terms: 'Koşullar' },
   }[locale];
 

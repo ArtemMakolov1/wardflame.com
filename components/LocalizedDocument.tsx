@@ -26,7 +26,7 @@ export type DocumentCopy = {
   date?: string;
 };
 
-const SUPPORT_URL = 'https://github.com/ArtemMakolov1/wardflame.com/issues/new?template=support.yml';
+const SUPPORT_EMAIL = 'support@wardflame.com';
 
 function Paragraph({ locale, value }: { locale: Locale; value: string | LinkedParagraph }) {
   if (typeof value === 'string') return <p>{value}</p>;
@@ -59,7 +59,7 @@ export function LocalizedDocument({
   return (
     <InfoPage locale={locale} section={kind} index={copy.index} title={copy.title} intro={copy.intro}>
       {copy.cta ? (
-        <a className="primary-link" href={SUPPORT_URL} target="_blank" rel="noreferrer">
+        <a className="primary-link" href={`mailto:${SUPPORT_EMAIL}`}>
           {copy.cta} <span aria-hidden="true">↗</span>
         </a>
       ) : null}

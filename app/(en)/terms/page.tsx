@@ -19,13 +19,13 @@ export default function TermsPage() {
       <p>When Wardflame is distributed through the App Store, the license terms shown on its product page apply. Unless that page states otherwise, Apple&apos;s <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noreferrer">Standard End User License Agreement</a> governs the game license. This page is not a custom EULA.</p>
 
       <h2>Purchases</h2>
-      <p>The current design offers the first in-game day and night without charge, followed by one non-consumable purchase for the full game. Price and currency are displayed by the App Store for your region. Apple processes payment, restoration, billing, and refund requests under its terms.</p>
+      <p>Wardflame offers the first in-game day and night without charge, followed by one non-consumable purchase for the full game. Price and currency are displayed by the App Store for your region. Apple processes payment, restoration, billing, and refund requests under its terms.</p>
 
       <h2>Intellectual property</h2>
       <p>Wardflame, its code, game art, audio, text, and website materials are protected by applicable intellectual-property laws. You may share links and unmodified screenshots for discussion, reviews, and gameplay coverage. No broader license is granted.</p>
 
       <h2>Availability</h2>
-      <p>Wardflame is in development. Features, compatibility, release timing, and availability may change before release. The website is provided as available and may be updated or temporarily unavailable.</p>
+      <p>Wardflame is being prepared for App Store release. Features and compatibility may be updated before or after release. The website is provided as available and may be updated or temporarily unavailable.</p>
 
       <h2>Contact and changes</h2>
       <p>Questions can be sent through <Link href="/support">Wardflame Support</Link>. Material changes to these terms will be published here with a new date.</p>

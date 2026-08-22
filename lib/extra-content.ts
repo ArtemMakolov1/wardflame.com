@@ -15,6 +15,6 @@ export const extraHomeMetadata: Record<ExtraLocale, { title: string; description
   },
   tr: {
     title: 'Wardflame — iPhone ve iPad için hayatta kalma ve üretim',
-    description: 'iPhone ve iPad için üstten görünüşlü hayatta kalma ve üretim oyunu Wardflame’de gündüz üssünü kur, gece çöktüğünde dikilitaşı savun.',
+    description: 'iPhone ve iPad için kuş bakışı hayatta kalma ve üretim oyunu Wardflame’de gündüz üssünü kur, gece çöktüğünde obeliski savun.',
   },
 };

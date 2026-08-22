@@ -1,7 +1,7 @@
 import { InfoPage } from '@/components/InfoPage';
 import { localizedMetadata } from '@/lib/metadata';
 
-const SUPPORT_URL = 'https://github.com/ArtemMakolov1/wardflame.com/issues/new?template=support.yml';
+const SUPPORT_EMAIL = 'support@wardflame.com';
 
 export const metadata = localizedMetadata({
   title: 'Support',
@@ -12,9 +12,9 @@ export const metadata = localizedMetadata({
 
 export default function SupportPage() {
   return (
-    <InfoPage locale="en" section="support" index="Support / Public" title="Support" intro="Wardflame is in development. You can still report a problem with a test build or ask a question.">
-      <a className="primary-link" href={SUPPORT_URL} target="_blank" rel="noreferrer">Open a support request <span aria-hidden="true">↗</span></a>
-      <p className="support-note">Support requests are handled in a public GitHub repository. A free GitHub account is required. Do not post payment details, private diagnostic files, or other sensitive information.</p>
+    <InfoPage locale="en" section="support" index="Support / Wardflame" title="Support" intro="Get help with Wardflame, report a problem, or ask a question.">
+      <a className="primary-link" href={`mailto:${SUPPORT_EMAIL}`}>Email {SUPPORT_EMAIL} <span aria-hidden="true">↗</span></a>
+      <p className="support-note">Email is the official support channel and does not require an account. Do not send payment card details or other sensitive information.</p>
 
       <h2>What to include</h2>
       <ul>
@@ -25,7 +25,7 @@ export default function SupportPage() {
       </ul>
 
       <h2>Supported devices</h2>
-      <p>The current build targets iPhone and iPad running iOS or iPadOS 17.0 or later. Wardflame plays in landscape. The current in-game language menu includes English and Russian; this website is also available in German, French, Spanish, and Turkish.</p>
+      <p>Wardflame supports iPhone and iPad running iOS or iPadOS 17.0 or later and plays in landscape. The in-game language menu and this website are available in English, Russian, German, French, Spanish, and Turkish.</p>
 
       <h2>Purchases and restoration</h2>
       <p>The first in-game day and night are free. A single non-consumable purchase unlocks the full game. To restore it, use Restore Purchase on the unlock screen while signed in with the Apple Account that made the purchase.</p>

@@ -1,7 +1,7 @@
 import { InfoPage } from '@/components/InfoPage';
 import { localizedMetadata } from '@/lib/metadata';
 
-const SUPPORT_URL = 'https://github.com/ArtemMakolov1/wardflame.com/issues/new?template=support.yml';
+const SUPPORT_EMAIL = 'support@wardflame.com';
 
 export const metadata = localizedMetadata({
   title: 'Поддержка',
@@ -12,9 +12,9 @@ export const metadata = localizedMetadata({
 
 export default function RussianSupportPage() {
   return (
-    <InfoPage locale="ru" section="support" index="Поддержка / Открытая" title="Поддержка" intro="Wardflame находится в разработке. Уже сейчас можно сообщить о проблеме в тестовой сборке или задать вопрос.">
-      <a className="primary-link" href={SUPPORT_URL} target="_blank" rel="noreferrer">Создать обращение <span aria-hidden="true">↗</span></a>
-      <p className="support-note">Обращения обрабатываются в публичном репозитории GitHub. Нужен бесплатный аккаунт GitHub. Не публикуйте платёжные данные, закрытые диагностические файлы и другие чувствительные сведения.</p>
+    <InfoPage locale="ru" section="support" index="Поддержка / Wardflame" title="Поддержка" intro="Здесь можно получить помощь по Wardflame, сообщить о проблеме или задать вопрос.">
+      <a className="primary-link" href={`mailto:${SUPPORT_EMAIL}`}>Написать на {SUPPORT_EMAIL} <span aria-hidden="true">↗</span></a>
+      <p className="support-note">Электронная почта — официальный канал поддержки, регистрация не нужна. Не отправляйте данные банковской карты и другие чувствительные сведения.</p>
 
       <h2>Что указать</h2>
       <ul>
@@ -25,7 +25,7 @@ export default function RussianSupportPage() {
       </ul>
 
       <h2>Поддерживаемые устройства</h2>
-      <p>Текущая сборка предназначена для iPhone и iPad с iOS или iPadOS 17.0 и новее. Wardflame работает в альбомной ориентации. Сейчас в меню игры доступны русский и английский языки; сайт также переведён на немецкий, французский, испанский и турецкий.</p>
+      <p>Wardflame поддерживает iPhone и iPad с iOS или iPadOS 17.0 и новее и работает в альбомной ориентации. Меню игры и сайт доступны на русском, английском, немецком, французском, испанском и турецком языках.</p>
 
       <h2>Покупка и восстановление</h2>
       <p>Первый игровой день и первая ночь бесплатны. Одна разовая покупка открывает полную игру. Для восстановления нажмите «Восстановить покупку» на экране разблокировки и войдите в тот Apple Account, с которого совершалась покупка.</p>

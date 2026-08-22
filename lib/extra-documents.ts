@@ -35,17 +35,18 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Lokale Daten löschen',
           paragraphs: [
-            'Wenn du Wardflame löschst, werden die lokal gespeicherten Daten der App entfernt. Davon ausgenommen können Sicherungsmechanismen des Geräts und des App Store sein, die von Apple gesteuert werden. Das Spiel führt kein entferntes Spielerkonto und kein Cloud-Profil.',
+            'Wenn du Wardflame löschst, werden die lokal gespeicherten Daten der App entfernt. Davon ausgenommen können Sicherungsmechanismen des Geräts und des App Store sein, die von Apple gesteuert werden. Das Spiel führt weder ein Spielerkonto auf einem Server noch ein Cloud-Profil.',
           ],
         },
         {
           title: 'Diese Website',
           paragraphs: [
-            'Wardflame.com verwendet Vercel Web Analytics und Speed Insights, um Seitenaufrufe und Leistungswerte anonym zu messen. Die Dienste setzen keine Cookies. Die aggregierten Messwerte können Zeitstempel, Route oder URL, gefilterte Abfrageparameter, Referrer, ungefähres Land oder Region, Browser, Betriebssystem, Gerätetyp, Netzwerkgeschwindigkeit und Core Web Vitals enthalten. Diese Angaben werden weder einzelnen Besuchern noch IP-Adressen zugeordnet.',
+            'Wardflame.com verwendet Vercel Web Analytics und Speed Insights, um Seitenaufrufe und Leistungswerte anonym zu messen. Die Dienste setzen keine Cookies. Die aggregierten Messwerte können Zeitstempel, Route oder URL, gefilterte Abfrageparameter, Referrer, das ungefähre Land oder die ungefähre Region, Browser, Betriebssystem, Gerätetyp, Netzwerkgeschwindigkeit und Core Web Vitals enthalten. Diese Angaben werden weder einzelnen Besuchern noch IP-Adressen zugeordnet.',
             'Wir übermitteln keine benutzerdefinierten Ereignisse, Kontodaten, Zahlungsdaten oder Werbekennungen. Wardflame.com verwendet keine Werbetracker und erstellt keine Werbeprofile.',
             'Im aktuellen Vercel-Hobby-Tarif beträgt das Berichtsfenster für Web Analytics einen Monat und für Speed Insights sieben Tage. Vercel kann Web-Analytics-Daten über das sichtbare Berichtsfenster hinaus speichern. Der von Web Analytics verwendete temporäre Besucher-Hash verfällt nach 24 Stunden. Das Entfernen der Komponenten und Deaktivieren der Dienste beendet die künftige Erfassung. Da die Messwerte aggregiert und keinem bestimmten Besucher zugeordnet werden können, gibt es keinen besucherspezifischen Analysedatensatz, den wir einzeln abrufen oder löschen könnten.',
             'Der Hosting- und Sicherheitsanbieter kann begrenzte technische Informationen wie IP-Adresse, User-Agent, angeforderte URL und Zeitstempel in Serverprotokollen verarbeiten, um die Website bereitzustellen und zu schützen.',
-            'Wenn du einem Link zu Apple oder GitHub folgst, verarbeiten diese Dienste Daten nach ihren eigenen Richtlinien. Informationen in einer öffentlichen GitHub-Supportanfrage sind für andere sichtbar. Gib dort keine Zahlungsdaten oder anderen vertraulichen Informationen an.',
+            'Wenn du dem Support eine E-Mail schreibst, erhält Wardflame die Absenderadresse, den Nachrichtentext, Anhänge und die üblichen Zustellungsmetadaten. Cloudflare Email Routing und Google verarbeiten diese Informationen, um die Nachricht zuzustellen. Wir verwenden sie ausschließlich, um zu antworten und das beschriebene Problem zu diagnostizieren. Sende nur die dafür erforderlichen Angaben und niemals Zahlungskartendaten oder andere vertrauliche Informationen.',
+            'Supportkorrespondenz wird höchstens zwölf Monate nach der letzten Antwort aufbewahrt und anschließend gelöscht, sofern keine längere Speicherung gesetzlich vorgeschrieben oder zur Verhinderung von Missbrauch erforderlich ist. Du kannst eine frühere Löschung beantragen, indem du von der in der Korrespondenz verwendeten Adresse an support@wardflame.com schreibst. Wir verlangen von Cloudflare und Google einen Schutz, der mindestens dem in dieser Erklärung beschriebenen Niveau entspricht. Restkopien in ihren Sicherungssystemen können nach den jeweiligen Löschfristen vorübergehend bestehen bleiben.',
           ],
         },
         {
@@ -65,11 +66,11 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     support: {
       metadataTitle: 'Support',
       metadataDescription: 'Wardflame-Support, Veröffentlichungsstatus, Geräteanforderungen, Hilfe beim Wiederherstellen von Käufen und Fehlermeldungen.',
-      index: 'Support / Öffentlich',
+      index: 'Support / Wardflame',
       title: 'Support',
-      intro: 'Wardflame befindet sich in Entwicklung. Du kannst trotzdem ein Problem mit einem Test-Build melden oder eine Frage stellen.',
+      intro: 'Hier erhältst du Hilfe zu Wardflame, kannst ein Problem melden oder eine Frage stellen.',
       cta: 'Supportanfrage öffnen',
-      note: 'Supportanfragen werden in einem öffentlichen GitHub-Repository bearbeitet. Ein kostenloses GitHub-Konto ist erforderlich. Veröffentliche keine Zahlungsdaten, privaten Diagnosedateien oder anderen vertraulichen Informationen.',
+      note: 'E-Mail ist der offizielle Supportkanal und erfordert kein Konto. Schreibe an support@wardflame.com. Sende keine Zahlungskartendaten oder andere vertrauliche Informationen.',
       sections: [
         {
           title: 'Welche Angaben wir brauchen',
@@ -83,7 +84,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Unterstützte Geräte',
           paragraphs: [
-            'Der aktuelle Build ist für iPhone und iPad mit iOS beziehungsweise iPadOS 17.0 oder neuer vorgesehen. Wardflame wird im Querformat gespielt. Im aktuellen Sprachmenü des Spiels sind Englisch und Russisch verfügbar; diese Website ist zusätzlich auf Deutsch, Französisch, Spanisch und Türkisch verfügbar.',
+            'Wardflame unterstützt iPhone und iPad mit iOS beziehungsweise iPadOS 17.0 oder neuer und wird im Querformat gespielt. Das Sprachmenü des Spiels und diese Website sind auf Deutsch, Englisch, Russisch, Französisch, Spanisch und Türkisch verfügbar.',
           ],
         },
         {
@@ -116,7 +117,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Nutzung der Website',
           paragraphs: [
-            'Sie dürfen wardflame.com nutzen, um sich über Wardflame zu informieren, Screenshots aus dem Spiel anzusehen und den Support zu erreichen. Stören Sie den Betrieb der Website nicht, versuchen Sie keinen unbefugten Zugriff und verwenden Sie die Inhalte nicht irreführend oder rechtswidrig.',
+            'Du darfst wardflame.com nutzen, um dich über Wardflame zu informieren, Screenshots aus dem Spiel anzusehen und den Support zu erreichen. Störe den Betrieb der Website nicht, versuche keinen unbefugten Zugriff und verwende die Inhalte nicht irreführend oder rechtswidrig.',
           ],
         },
         {
@@ -133,19 +134,19 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Käufe',
           paragraphs: [
-            'Das derzeitige Konzept sieht den ersten Spieltag und die erste Nacht kostenlos vor; anschließend schaltet ein einmaliger, nicht verbrauchbarer Kauf das vollständige Spiel frei. Preis und Währung zeigt der App Store für Ihre Region an. Apple verarbeitet Zahlung, Wiederherstellung, Abrechnung und Erstattungsanfragen nach seinen Bedingungen.',
+            'Der erste Spieltag und die erste Nacht sind kostenlos; anschließend schaltet ein einmaliger, nicht verbrauchbarer Kauf das vollständige Spiel frei. Preis und Währung zeigt der App Store für deine Region an. Apple verarbeitet Zahlung, Wiederherstellung, Abrechnung und Erstattungsanfragen nach seinen Bedingungen.',
           ],
         },
         {
           title: 'Geistiges Eigentum',
           paragraphs: [
-            'Wardflame, der Code, die Spielgrafiken, Audiodateien, Texte und Materialien der Website sind durch die geltenden Gesetze zum Schutz geistigen Eigentums geschützt. Sie dürfen Links und unveränderte Screenshots für Diskussionen, Rezensionen und Berichterstattung über das Spiel teilen. Eine weitergehende Lizenz wird nicht eingeräumt.',
+            'Wardflame, der Code, die Spielgrafiken, Audiodateien, Texte und Materialien der Website sind durch die geltenden Gesetze zum Schutz geistigen Eigentums geschützt. Du darfst Links und unveränderte Screenshots für Diskussionen, Rezensionen und Berichterstattung über das Spiel teilen. Eine weitergehende Lizenz wird nicht eingeräumt.',
           ],
         },
         {
           title: 'Verfügbarkeit',
           paragraphs: [
-            'Wardflame befindet sich in Entwicklung. Funktionen, Kompatibilität, Veröffentlichungszeitpunkt und Verfügbarkeit können sich vor der Veröffentlichung ändern. Die Website wird nach Verfügbarkeit bereitgestellt und kann aktualisiert werden oder vorübergehend nicht erreichbar sein.',
+            'Wardflame wird für die Veröffentlichung im App Store vorbereitet. Funktionen und Kompatibilität können vor oder nach der Veröffentlichung aktualisiert werden. Die Website wird nach Verfügbarkeit bereitgestellt und kann aktualisiert werden oder vorübergehend nicht erreichbar sein.',
           ],
         },
         {
@@ -166,45 +167,46 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
   fr: {
     privacy: {
       metadataTitle: 'Politique de confidentialité',
-      metadataDescription: 'Comment Wardflame et wardflame.com traitent les données du jeu, les achats, les journaux du site, les cookies et le suivi.',
+      metadataDescription: 'Comment Wardflame et wardflame.com traitent les données de jeu, les achats, les journaux du site, les cookies et le suivi.',
       index: 'Confidentialité / 21 août 2026',
       title: 'Politique de confidentialité',
-      intro: 'Wardflame ne collecte aucune donnée du jeu à des fins d’analyse, de publicité ou de suivi.',
+      intro: 'Wardflame ne collecte aucune donnée de jeu à des fins d’analyse, de publicité ou de suivi.',
       sections: [
         {
           title: 'Le jeu',
           paragraphs: [
-            'Wardflame ne collecte, ne transmet ni ne vend de données personnelles, et ne les utilise pas à des fins de suivi ou de publicité. Le jeu ne dispose d’aucun service d’analyse ou de publicité.',
-            'La progression, les réglages et les rapports de diagnostic locaux restent sur votre appareil. Le manifeste de confidentialité Apple de Wardflame ne déclare aucune catégorie de données collectée ni aucun suivi.',
+            'Wardflame ne collecte, ne transmet et ne vend aucune donnée personnelle. Il ne les utilise ni à des fins de suivi ni à des fins publicitaires. Le jeu ne dispose d’aucun service d’analyse ni de publicité.',
+            'Les données de progression, les réglages et les rapports de diagnostic locaux restent sur votre appareil. Le manifeste de confidentialité Apple de Wardflame ne déclare aucune catégorie de données collectée ni aucun suivi.',
           ],
         },
         {
           title: 'Achats',
           paragraphs: [
-            'Les achats du jeu complet et leur restauration sont traités par Apple via StoreKit. Wardflame ne reçoit que le statut d’accès nécessaire pour déverrouiller le jeu. Wardflame ne reçoit pas les données de votre carte de paiement. Apple traite les données d’achat conformément à sa propre politique de confidentialité.',
+            'Apple traite via StoreKit l’achat unique qui déverrouille le jeu complet ainsi que sa restauration. Wardflame reçoit uniquement le statut de déverrouillage nécessaire au jeu et ne reçoit aucune donnée de votre carte de paiement. Apple traite les données d’achat conformément à sa propre politique de confidentialité.',
           ],
         },
         {
           title: 'Suppression des données locales',
           paragraphs: [
-            'La suppression de Wardflame efface les données stockées localement par l’app, sous réserve des mécanismes de sauvegarde de l’appareil et de l’App Store gérés par Apple. Le jeu ne conserve aucun compte joueur distant ni profil dans le cloud.',
+            'La suppression de l’app Wardflame efface les données qu’elle stocke localement, sous réserve des mécanismes de sauvegarde de l’appareil et de l’App Store gérés par Apple. Le jeu ne conserve aucun compte de joueur distant ni aucun profil dans le cloud.',
           ],
         },
         {
           title: 'Ce site',
           paragraphs: [
-            'Wardflame.com utilise Vercel Web Analytics et Speed Insights pour mesurer anonymement les pages consultées et les performances. Ces services n’utilisent aucun cookie. Les mesures agrégées peuvent inclure l’horodatage, la route ou l’URL, les paramètres de requête filtrés, le site référent, le pays ou la région approximatifs, le navigateur, le système d’exploitation, le type d’appareil, la vitesse du réseau et les Core Web Vitals. Ces informations ne sont associées ni à un visiteur ni à une adresse IP.',
+            'Wardflame.com utilise Vercel Web Analytics et Speed Insights pour mesurer de façon anonyme et agrégée la consultation des pages et les performances. Ces services n’utilisent aucun cookie. Les mesures peuvent inclure l’horodatage, le chemin ou l’URL, les paramètres de requête filtrés, la page référente, le pays ou la région approximatifs, le navigateur, le système d’exploitation, le type d’appareil, la vitesse du réseau et les Core Web Vitals. Ces informations ne sont associées ni à un visiteur ni à une adresse IP.',
             'Nous ne transmettons aucun événement personnalisé, aucune information de compte ou de paiement, ni aucun identifiant publicitaire. Wardflame.com n’utilise aucun traceur publicitaire et ne crée aucun profil publicitaire.',
             'Avec l’offre Vercel Hobby actuelle, la période de consultation est d’un mois pour Web Analytics et de sept jours pour Speed Insights. Vercel peut conserver les données Web Analytics au-delà de la période visible. Le hachage temporaire utilisé par Web Analytics expire après 24 heures. Le retrait des composants et la désactivation des services mettent fin à toute collecte future. Les mesures étant agrégées et ne pouvant être rattachées à un visiteur précis, nous ne disposons d’aucun enregistrement individuel à consulter ou supprimer.',
-            'Le fournisseur d’hébergement et de sécurité peut traiter des informations techniques limitées, telles que l’adresse IP, le user-agent, l’URL demandée et les horodatages consignés dans les journaux du serveur, afin de fournir et de protéger le site.',
-            'Si vous suivez un lien vers Apple ou GitHub, ces services traitent les données selon leurs propres politiques. Les informations publiées dans une demande d’assistance GitHub publique sont visibles par tous : n’y indiquez aucune donnée de paiement ni autre information sensible.',
+            'Le fournisseur d’hébergement et de sécurité peut traiter des informations techniques limitées, telles que l’adresse IP, l’agent utilisateur (User-Agent), l’URL demandée et les horodatages consignés dans les journaux du serveur, afin de fournir et de protéger le site.',
+            'Lorsque vous écrivez à l’assistance par e-mail, Wardflame reçoit l’adresse de l’expéditeur, le contenu du message, les pièces jointes et les métadonnées habituelles d’acheminement. Cloudflare Email Routing et Google traitent ces informations afin d’acheminer le message. Nous les utilisons uniquement pour vous répondre et diagnostiquer le problème décrit. N’envoyez que les informations nécessaires, et jamais de données de carte bancaire ni d’autres informations sensibles.',
+            'Les échanges avec l’assistance sont conservés pendant douze mois au maximum après la dernière réponse, puis supprimés, sauf si une conservation plus longue est imposée par la loi ou nécessaire pour prévenir les abus. Vous pouvez demander leur suppression anticipée en écrivant à support@wardflame.com depuis l’adresse utilisée dans l’échange. Nous exigeons de Cloudflare et de Google un niveau de protection au moins équivalent à celui décrit dans cette politique. Des copies résiduelles peuvent subsister temporairement dans leurs sauvegardes conformément à leurs calendriers de suppression.',
           ],
         },
         {
           title: 'Modifications et contact',
           paragraphs: [
             {
-              before: 'Cette politique sera mise à jour avant toute version qui introduirait une nouvelle collecte de données ou un suivi non essentiel sur le site. Pour toute question, utilisez la ',
+              before: 'Cette politique sera mise à jour avant toute version qui introduirait une nouvelle collecte de données ou un suivi non essentiel sur le site. Pour toute question, écrivez à support@wardflame.com ou consultez la ',
               label: 'page d’assistance de Wardflame',
               section: 'support',
               after: '.',
@@ -216,32 +218,32 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     },
     support: {
       metadataTitle: 'Assistance',
-      metadataDescription: 'Assistance Wardflame, état de la sortie, appareils requis, aide à la restauration des achats et signalement de bugs.',
-      index: 'Assistance / Public',
+      metadataDescription: 'Assistance Wardflame, état de la sortie, appareils requis, aide à la restauration des achats et signalement de problèmes.',
+      index: 'Assistance / Wardflame',
       title: 'Assistance',
-      intro: 'Wardflame est en cours de développement. Vous pouvez néanmoins signaler un problème rencontré dans une version de test ou poser une question.',
+      intro: 'Cette page vous permet d’obtenir de l’aide sur Wardflame, de signaler un problème ou de poser une question.',
       cta: 'Ouvrir une demande d’assistance',
-      note: 'Les demandes d’assistance sont traitées dans un dépôt GitHub public. Un compte GitHub gratuit est nécessaire. Ne publiez aucune donnée de paiement, aucun fichier de diagnostic privé ni aucune autre information sensible.',
+      note: 'L’adresse support@wardflame.com est le canal d’assistance officiel et ne nécessite aucun compte. N’envoyez aucune donnée de carte bancaire ni aucune autre information sensible.',
       sections: [
         {
           title: 'Informations à fournir',
           items: [
-            'Le modèle de votre iPhone ou iPad et la version d’iOS/iPadOS.',
-            'La version de Wardflame affichée dans l’app.',
-            'Ce que vous avez fait, ce qui s’est produit et ce à quoi vous vous attendiez.',
-            'Une capture d’écran ou un court enregistrement d’écran si cela aide à expliquer le problème.',
+            'Le modèle de votre iPhone ou iPad ainsi que la version d’iOS ou d’iPadOS.',
+            'La version de Wardflame indiquée dans l’app.',
+            'Les étapes suivies, le résultat observé et le résultat attendu.',
+            'Une capture d’écran ou un court enregistrement d’écran si cela permet de mieux comprendre le problème.',
           ],
         },
         {
           title: 'Appareils compatibles',
           paragraphs: [
-            'La version actuelle cible les iPhone et iPad sous iOS ou iPadOS 17.0 ou version ultérieure. Wardflame se joue en mode paysage. Le menu des langues du jeu propose actuellement l’anglais et le russe ; ce site est également disponible en allemand, français, espagnol et turc.',
+            'Wardflame prend en charge les iPhone et iPad sous iOS ou iPadOS 17.0 ou version ultérieure et se joue en mode paysage. Le jeu et le site sont disponibles en six langues : français, anglais, russe, allemand, espagnol et turc.',
           ],
         },
         {
           title: 'Achats et restauration',
           paragraphs: [
-            'Le premier jour et la première nuit en jeu sont gratuits. Un achat intégré unique et non consommable débloque le jeu complet. Pour le restaurer, utilisez « Restaurer les achats » sur l’écran de déverrouillage en étant connecté au compte Apple ayant servi à l’achat.',
+            'Le premier jour et la première nuit sont gratuits. Un achat intégré unique et non consommable débloque le jeu complet. Pour restaurer cet achat, sélectionnez « Restaurer les achats » sur l’écran de déverrouillage et connectez-vous au compte Apple utilisé lors de l’achat.',
             'Apple traite les paiements. N’indiquez jamais d’informations de carte bancaire dans une demande d’assistance. Pour toute question relative à la facturation ou à un remboursement, contactez l’assistance Apple.',
           ],
         },
@@ -249,8 +251,8 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
           title: 'Confidentialité',
           paragraphs: [
             {
-              before: 'Wardflame stocke la progression et les réglages localement et n’exploite aucun service d’analyse ou de publicité. Consultez la page ',
-              label: 'Confidentialité',
+              before: 'Wardflame stocke la progression et les réglages localement et ne dispose d’aucun service d’analyse ni de publicité. Consultez la ',
+              label: 'politique de confidentialité',
               section: 'privacy',
               after: ' pour lire la politique complète.',
             },
@@ -263,7 +265,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
       metadataDescription: 'Conditions d’utilisation du site, licence App Store, achats, propriété intellectuelle et disponibilité de Wardflame.',
       index: 'Conditions / 22 août 2026',
       title: 'Conditions d’utilisation',
-      intro: 'Ces conditions couvrent le site de Wardflame et les ressources d’assistance. Le jeu est concédé sous licence via l’App Store.',
+      intro: 'Ces conditions s’appliquent au site de Wardflame et à ses ressources d’assistance. Le jeu est concédé sous licence via l’App Store.',
       sections: [
         {
           title: 'Utilisation du site',
@@ -275,7 +277,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
           title: 'Licence du jeu',
           paragraphs: [
             {
-              before: 'Lorsque Wardflame sera distribué via l’App Store, les conditions de licence affichées sur sa page produit s’appliqueront. Sauf indication contraire sur cette page, le ',
+              before: 'Lorsque Wardflame sera disponible sur l’App Store, les conditions de licence affichées sur sa page produit s’appliqueront. Sauf indication contraire sur cette page, le ',
               label: 'Contrat de licence d’utilisateur final standard',
               href: appleEula,
               after: ' d’Apple régira la licence du jeu. Cette page ne constitue pas un contrat de licence personnalisé.',
@@ -285,26 +287,26 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Achats',
           paragraphs: [
-            'La conception actuelle prévoit le premier jour et la première nuit en jeu sans frais, puis un achat intégré non consommable unique pour débloquer le jeu complet. Le prix et la devise sont affichés par l’App Store pour votre région. Apple traite le paiement, la restauration, la facturation et les demandes de remboursement selon ses propres conditions.',
+            'Le premier jour et la première nuit sont gratuits, puis un achat intégré unique et non consommable débloque le jeu complet. L’App Store affiche le prix et la devise correspondant à votre région. Apple traite le paiement, la restauration, la facturation et les demandes de remboursement selon ses propres conditions.',
           ],
         },
         {
           title: 'Propriété intellectuelle',
           paragraphs: [
-            'Wardflame, son code, ses graphismes, ses contenus audio, ses textes et les ressources du site sont protégés par les lois applicables en matière de propriété intellectuelle. Vous pouvez partager des liens et des captures d’écran non modifiées à des fins de discussion, de critique et de couverture du jeu. Aucune licence plus étendue n’est accordée.',
+            'Wardflame, son code, ses graphismes, ses contenus audio, ses textes et les ressources du site sont protégés par les lois applicables en matière de propriété intellectuelle. Vous pouvez partager des liens et des captures d’écran non modifiées pour discuter du jeu, le critiquer ou en rendre compte. Aucune licence plus étendue n’est accordée.',
           ],
         },
         {
           title: 'Disponibilité',
           paragraphs: [
-            'Wardflame est en cours de développement. Les fonctionnalités, la compatibilité, la date de sortie et la disponibilité peuvent changer avant la sortie. Le site est fourni sous réserve de disponibilité et peut être mis à jour ou temporairement inaccessible.',
+            'Wardflame est en cours de préparation pour une sortie sur l’App Store. Les fonctionnalités et la compatibilité peuvent évoluer avant ou après la sortie. Le site est fourni sous réserve de disponibilité et peut être mis à jour ou temporairement inaccessible.',
           ],
         },
         {
           title: 'Contact et modifications',
           paragraphs: [
             {
-              before: 'Vous pouvez envoyer vos questions via l’',
+              before: 'Pour toute question, écrivez à support@wardflame.com ou consultez l’',
               label: 'assistance Wardflame',
               section: 'support',
               after: '. Toute modification substantielle de ces conditions sera publiée ici avec une nouvelle date.',
@@ -326,30 +328,31 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'El juego',
           paragraphs: [
-            'Wardflame no recopila, transmite, vende ni utiliza datos personales con fines de seguimiento o publicidad. El juego no dispone de sistemas de análisis ni publicidad en sus servidores.',
-            'El progreso, los ajustes y los informes de diagnóstico locales permanecen en tu dispositivo. El manifiesto de privacidad de Apple incluido con Wardflame declara que no se recopila ningún tipo de dato ni se realiza seguimiento.',
+            'Wardflame no recopila, transmite, vende ni utiliza datos personales con fines de seguimiento o publicidad. El juego no utiliza servicios de análisis ni publicidad.',
+            'Los datos de progreso, los ajustes y los informes de diagnóstico locales permanecen en tu dispositivo. El manifiesto de privacidad de Apple incluido con Wardflame declara que no se recopila ningún tipo de dato ni se realiza seguimiento.',
           ],
         },
         {
           title: 'Compras',
           paragraphs: [
-            'Las compras del juego completo y la restauración de compras son procesadas por Apple mediante StoreKit. Wardflame solo recibe el estado de la licencia necesario para desbloquear el juego. No recibe los datos de tu tarjeta de pago. Apple gestiona los datos de las compras conforme a su propia política de privacidad.',
+            'Apple procesa mediante StoreKit la compra que desbloquea el juego completo y su restauración. Wardflame solo recibe el estado de desbloqueo necesario para el juego. No recibe los datos de tu tarjeta de pago. Apple gestiona los datos de la compra conforme a su propia política de privacidad.',
           ],
         },
         {
           title: 'Eliminación de datos locales',
           paragraphs: [
-            'Al eliminar Wardflame se borran los datos almacenados localmente, sin perjuicio de los mecanismos de copia de seguridad del dispositivo y de App Store controlados por Apple. El juego no mantiene cuentas de jugador ni perfiles en la nube.',
+            'Al eliminar Wardflame se borran los datos almacenados localmente, sin perjuicio de los mecanismos de copia de seguridad del dispositivo y del App Store controlados por Apple. El juego no mantiene cuentas de jugador ni perfiles en la nube.',
           ],
         },
         {
           title: 'Este sitio web',
           paragraphs: [
-            'Wardflame.com utiliza Vercel Web Analytics y Speed Insights para medir de forma anónima las visitas a páginas y el rendimiento. Estas herramientas no utilizan cookies. Los datos agregados pueden incluir la fecha y hora, la ruta o URL, los parámetros de consulta filtrados, el sitio de procedencia, el país o la región aproximados, el navegador, el sistema operativo, el tipo de dispositivo, la velocidad de la conexión y las métricas Core Web Vitals. Estos datos no se asocian con una persona visitante ni con una dirección IP.',
+            'Wardflame.com utiliza Vercel Web Analytics y Speed Insights para medir de forma anónima las visitas a páginas y el rendimiento. Estas herramientas no utilizan cookies. Los datos agregados pueden incluir la fecha y hora, la ruta o URL, los parámetros de consulta filtrados, el sitio de procedencia, el país o la región aproximados, el navegador, el sistema operativo, el tipo de dispositivo, la velocidad de la conexión y las métricas Core Web Vitals. Estos datos no se asocian con ningún visitante ni con ninguna dirección IP.',
             'No enviamos eventos personalizados, datos de cuentas o pagos ni identificadores publicitarios. Wardflame.com no utiliza rastreadores publicitarios ni crea perfiles publicitarios.',
             'Con el plan Vercel Hobby actual, el período de consulta es de un mes para Web Analytics y de siete días para Speed Insights. Vercel puede conservar los datos de Web Analytics más allá del período visible. El hash temporal de visitante que utiliza Web Analytics caduca después de 24 horas. Eliminar los componentes y desactivar los servicios detiene la recopilación futura. Como las métricas son agregadas y no pueden vincularse a una persona concreta, no existe un registro analítico individual que podamos consultar o eliminar por separado.',
             'El proveedor de alojamiento y seguridad puede tratar cierta información técnica limitada, como la dirección IP, el agente de usuario, la URL solicitada y las marcas de tiempo de los registros del servidor, con el fin de ofrecer y proteger el sitio.',
-            'Si sigues un enlace a Apple o GitHub, esos servicios tratarán los datos conforme a sus propias políticas. La información que publiques en una solicitud de soporte pública de GitHub será visible para otras personas, así que no incluyas datos de pago ni otra información sensible.',
+            'Si escribes al soporte por correo electrónico, Wardflame recibe la dirección del remitente, el mensaje, los archivos adjuntos y los metadatos habituales de entrega. Cloudflare Email Routing y Google procesan estos datos para entregar el mensaje. Wardflame solo los utiliza para responder a la solicitud y diagnosticar el problema descrito. Incluye únicamente la información necesaria y nunca envíes datos de tarjetas de pago ni otra información sensible.',
+            'La correspondencia con el soporte se conserva durante un máximo de 12 meses después de la última respuesta y luego se elimina, salvo que la ley exija conservarla durante más tiempo o sea necesario para prevenir abusos. Puedes solicitar su eliminación anticipada escribiendo a support@wardflame.com desde la dirección utilizada en la conversación. Exigimos a Cloudflare y Google un nivel de protección al menos equivalente al descrito en esta política. Sus copias residuales de seguridad pueden conservarse temporalmente conforme a sus calendarios de eliminación.',
           ],
         },
         {
@@ -369,17 +372,17 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     support: {
       metadataTitle: 'Soporte',
       metadataDescription: 'Soporte de Wardflame, estado del lanzamiento, requisitos del dispositivo, ayuda para restaurar compras e informes de errores.',
-      index: 'Soporte / Público',
+      index: 'Soporte / Wardflame',
       title: 'Soporte',
-      intro: 'Wardflame está en desarrollo. Aun así, puedes informar de un problema con una versión de prueba o hacer una pregunta.',
+      intro: 'Aquí puedes obtener ayuda con Wardflame, informar de un problema o hacer una pregunta.',
       cta: 'Abrir una solicitud de soporte',
-      note: 'Las solicitudes de soporte se gestionan en un repositorio público de GitHub. Se necesita una cuenta gratuita de GitHub. No publiques datos de pago, archivos de diagnóstico privados ni otra información sensible.',
+      note: 'El correo electrónico es el canal oficial de soporte y no requiere una cuenta. Escribe a support@wardflame.com. No envíes datos de tarjetas de pago ni otra información sensible.',
       sections: [
         {
           title: 'Qué debes incluir',
           items: [
             'El modelo de tu iPhone o iPad y la versión de iOS/iPadOS.',
-            'La versión de Wardflame que aparece en la aplicación.',
+            'La versión de Wardflame que se muestra en la aplicación.',
             'Qué hiciste, qué ocurrió y qué esperabas que ocurriera.',
             'Una captura de pantalla o una breve grabación de pantalla cuando ayude a explicar el problema.',
           ],
@@ -387,21 +390,21 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Dispositivos compatibles',
           paragraphs: [
-            'La versión actual está destinada a iPhone y iPad con iOS o iPadOS 17.0 o posterior. Wardflame se juega en horizontal. El menú de idiomas del juego incluye actualmente inglés y ruso; este sitio web también está disponible en alemán, francés, español y turco.',
+            'Wardflame es compatible con iPhone y iPad que usen iOS 17.0, iPadOS 17.0 o versiones posteriores, y se juega en horizontal. El menú de idiomas del juego y este sitio web están disponibles en español, inglés, ruso, alemán, francés y turco.',
           ],
         },
         {
           title: 'Compras y restauración',
           paragraphs: [
-            'El primer día y la primera noche dentro del juego son gratuitos. Una única compra no consumible desbloquea el juego completo. Para restaurarla, utiliza Restaurar compras en la pantalla de desbloqueo mientras hayas iniciado sesión con la cuenta de Apple que realizó la compra.',
-            'Apple procesa los pagos. Nunca incluyas datos de tarjetas en una solicitud de soporte. Para cuestiones de facturación o reembolso, ponte en contacto con el soporte de Apple.',
+            'El primer día y la primera noche dentro del juego son gratuitos. Una única compra integrada no consumible desbloquea el juego completo. Para restaurarla, utiliza «Restaurar compras» en la pantalla de desbloqueo tras iniciar sesión con la cuenta de Apple que utilizaste para la compra.',
+            'Apple procesa los pagos. Nunca incluyas datos de tarjetas de pago en una solicitud de soporte. Para cuestiones de facturación o reembolso, ponte en contacto con el soporte de Apple.',
           ],
         },
         {
           title: 'Privacidad',
           paragraphs: [
             {
-              before: 'Wardflame almacena el progreso y los ajustes localmente y no dispone de sistemas de análisis ni publicidad en sus servidores. Consulta la página de ',
+              before: 'Wardflame almacena el progreso y los ajustes localmente y no utiliza servicios de análisis ni publicidad. Consulta la página de ',
               label: 'Privacidad',
               section: 'privacy',
               after: ' para leer la política completa.',
@@ -412,10 +415,10 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     },
     terms: {
       metadataTitle: 'Términos',
-      metadataDescription: 'Términos del sitio web, licencia de App Store, compras, propiedad intelectual y disponibilidad de Wardflame.',
+      metadataDescription: 'Términos del sitio web, licencia del App Store, compras, propiedad intelectual y disponibilidad de Wardflame.',
       index: 'Términos / 22 ago 2026',
       title: 'Términos',
-      intro: 'Estos términos se aplican al sitio web de Wardflame y a sus materiales de soporte. El juego se licencia a través de App Store.',
+      intro: 'Estos términos se aplican al sitio web de Wardflame y a sus materiales de soporte. El juego se licencia a través del App Store.',
       sections: [
         {
           title: 'Uso del sitio web',
@@ -427,17 +430,17 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
           title: 'Licencia del juego',
           paragraphs: [
             {
-              before: 'Cuando Wardflame se distribuya a través de App Store, se aplicarán los términos de licencia mostrados en su página de producto. Salvo que esa página indique lo contrario, el ',
+              before: 'Cuando Wardflame se distribuya a través del App Store, se aplicarán los términos de licencia mostrados en su página de producto. Salvo que esa página indique lo contrario, el ',
               label: 'Contrato de licencia de usuario final estándar',
               href: appleEula,
-              after: ' de Apple regirá la licencia del juego. Esta página no constituye un EULA personalizado.',
+              after: ' de Apple regirá la licencia del juego. Esta página no constituye un contrato de licencia personalizado.',
             },
           ],
         },
         {
           title: 'Compras',
           paragraphs: [
-            'El diseño actual ofrece el primer día y la primera noche dentro del juego sin coste, seguidos de una única compra no consumible para acceder al juego completo. App Store muestra el precio y la moneda correspondientes a tu región. Apple procesa los pagos, la restauración, la facturación y las solicitudes de reembolso conforme a sus términos.',
+            'El primer día y la primera noche dentro del juego se ofrecen sin coste. Después, una única compra integrada no consumible permite acceder al juego completo. El App Store muestra el precio y la moneda correspondientes a tu región. Apple procesa los pagos, la restauración, la facturación y las solicitudes de reembolso conforme a sus términos.',
           ],
         },
         {
@@ -449,7 +452,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Disponibilidad',
           paragraphs: [
-            'Wardflame está en desarrollo. Las funciones, la compatibilidad, la fecha de lanzamiento y la disponibilidad pueden cambiar antes del lanzamiento. El sitio web se proporciona según su disponibilidad y puede actualizarse o quedar temporalmente fuera de servicio.',
+            'Wardflame se está preparando para su lanzamiento en el App Store. Las funciones y la compatibilidad pueden actualizarse antes o después del lanzamiento. El sitio web se proporciona según su disponibilidad y puede actualizarse o quedar temporalmente fuera de servicio.',
           ],
         },
         {
@@ -501,7 +504,8 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
             'Özel etkinlikler, hesap ya da ödeme bilgileri veya reklam tanımlayıcıları göndermeyiz. Wardflame.com reklam izleyicileri kullanmaz ve reklam profilleri oluşturmaz.',
             'Mevcut Vercel Hobby planında raporlama aralığı Web Analytics için bir ay, Speed Insights için yedi gündür. Vercel, Web Analytics verilerini görünür raporlama aralığından daha uzun süre saklayabilir. Web Analytics tarafından kullanılan geçici ziyaretçi karması 24 saat sonra silinir. Bileşenlerin kaldırılması ve hizmetlerin devre dışı bırakılması gelecekteki veri toplamayı durdurur. Ölçümler toplulaştırıldığı ve belirli bir ziyaretçiyle ilişkilendirilemediği için ayrı olarak erişebileceğimiz veya silebileceğimiz ziyaretçiye özel bir analiz kaydı yoktur.',
             'Barındırma ve güvenlik sağlayıcısı; siteyi sunmak ve korumak amacıyla sunucu günlüklerinde IP adresi, kullanıcı aracısı, istenen URL ve zaman damgası gibi sınırlı teknik bilgileri işleyebilir.',
-            'Apple veya GitHub bağlantısını izlerseniz bu hizmetler verileri kendi politikaları kapsamında işler. Herkese açık bir GitHub destek talebinde paylaştığınız bilgiler başkaları tarafından görülebilir; bu nedenle ödeme bilgilerini veya diğer hassas bilgileri eklemeyin.',
+            'Destek için e-posta gönderirseniz Wardflame gönderen adresini, mesajı, ekleri ve olağan e-posta iletim meta verilerini alır. Cloudflare Email Routing ve Google, mesajı iletmek için bu bilgileri işler. Bilgiler yalnızca yanıt vermek ve bildirilen sorunu teşhis etmek amacıyla kullanılır. Yalnızca destek için gerekli bilgileri gönderin; ödeme kartı bilgilerini veya başka hassas bilgileri asla paylaşmayın.',
+            'Destek yazışmaları son yanıttan sonra en fazla 12 ay saklanır ve daha uzun saklama kanunen zorunlu ya da kötüye kullanımı önlemek için gerekli değilse bu sürenin sonunda silinir. Daha erken silinmesini, yazışmada kullandığınız adresten support@wardflame.com adresine yazarak isteyebilirsiniz. Cloudflare ve Google’ın bu politikada açıklanan düzeye en az eşdeğer koruma sağlamasını şart koşarız. Yedek sistemlerindeki kalıntı kopyalar, kendi silme takvimleri uyarınca geçici olarak kalabilir.',
           ],
         },
         {
@@ -521,11 +525,11 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     support: {
       metadataTitle: 'Destek',
       metadataDescription: 'Wardflame desteği, çıkış durumu, cihaz gereksinimleri, satın alımları geri yükleme yardımı ve hata bildirme.',
-      index: 'Destek / Herkese açık',
+      index: 'Destek / Wardflame',
       title: 'Destek',
-      intro: 'Wardflame geliştirme aşamasındadır. Yine de bir test sürümündeki sorunu bildirebilir veya soru sorabilirsiniz.',
+      intro: 'Wardflame ile ilgili yardım alabilir, bir sorunu bildirebilir veya soru sorabilirsiniz.',
       cta: 'Destek talebi aç',
-      note: 'Destek talepleri herkese açık bir GitHub deposunda ele alınır. Ücretsiz bir GitHub hesabı gerekir. Ödeme bilgilerini, özel tanılama dosyalarını veya diğer hassas bilgileri paylaşmayın.',
+      note: 'E-posta resmî destek kanalıdır ve hesap gerektirmez. support@wardflame.com adresine yazın. Ödeme kartı bilgilerini veya diğer hassas bilgileri göndermeyin.',
       sections: [
         {
           title: 'Neleri eklemelisiniz',
@@ -539,7 +543,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Desteklenen cihazlar',
           paragraphs: [
-            'Mevcut sürüm, iOS veya iPadOS 17.0 ya da sonraki bir sürümü çalıştıran iPhone ve iPad cihazlarını hedefler. Wardflame yatay konumda oynanır. Oyunun mevcut dil menüsünde İngilizce ve Rusça bulunur; bu web sitesi ayrıca Almanca, Fransızca, İspanyolca ve Türkçe olarak da sunulur.',
+            'Wardflame, iOS veya iPadOS 17.0 ya da sonraki bir sürümü çalıştıran iPhone ve iPad cihazlarını destekler ve yatay konumda oynanır. Oyunun dil menüsü ve bu web sitesi Türkçe, İngilizce, Rusça, Almanca, Fransızca ve İspanyolca olarak sunulur.',
           ],
         },
         {
@@ -589,7 +593,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Satın alımlar',
           paragraphs: [
-            'Mevcut tasarım, oyundaki ilk gündüzü ve geceyi ücretsiz sunar; ardından tam oyun için tek bir tüketilemeyen satın alım gelir. App Store bölgenize ait fiyatı ve para birimini gösterir. Apple; ödeme, geri yükleme, faturalandırma ve geri ödeme taleplerini kendi koşulları uyarınca işler.',
+            'Oyundaki ilk gündüz ve ilk gece ücretsizdir; ardından tek bir tüketilemeyen satın alım tam oyunun kilidini açar. App Store bölgenize ait fiyatı ve para birimini gösterir. Apple; ödeme, geri yükleme, faturalandırma ve geri ödeme taleplerini kendi koşulları uyarınca işler.',
           ],
         },
         {
@@ -601,7 +605,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Kullanılabilirlik',
           paragraphs: [
-            'Wardflame geliştirme aşamasındadır. Özellikler, uyumluluk, çıkış tarihi ve kullanılabilirlik çıkıştan önce değişebilir. Web sitesi mevcut haliyle sunulur ve güncellenebilir veya geçici olarak kullanılamayabilir.',
+            'Wardflame, App Store çıkışı için hazırlanıyor. Özellikler ve uyumluluk çıkıştan önce veya sonra güncellenebilir. Web sitesi mevcut haliyle sunulur ve güncellenebilir veya geçici olarak kullanılamayabilir.',
           ],
         },
         {

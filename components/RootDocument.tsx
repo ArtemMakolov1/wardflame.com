@@ -3,7 +3,8 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { languageAlternates } from '@/lib/locales';
-import './globals.css';
+import type { Locale } from '@/lib/locales';
+import '@/app/globals.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -15,7 +16,7 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-export const metadata: Metadata = {
+export const rootMetadata: Metadata = {
   metadataBase: new URL('https://wardflame.com'),
   title: {
     default: 'Wardflame — Survival crafting for iPhone and iPad',
@@ -58,13 +59,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export function RootDocument({
   children,
+  locale,
 }: Readonly<{
   children: React.ReactNode;
+  locale: Locale;
 }>) {
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
         <Analytics />
