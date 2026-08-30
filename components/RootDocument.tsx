@@ -19,10 +19,10 @@ const geistMono = Geist_Mono({
 export const rootMetadata: Metadata = {
   metadataBase: new URL('https://wardflame.com'),
   title: {
-    default: 'Wardflame — Survival crafting for iPhone and iPad',
+    default: 'Wardflame — Survival crafting for iPhone, iPad and Mac',
     template: '%s · Wardflame',
   },
-  description: 'Build a base by day and defend the obelisk after dark in Wardflame, a top-down survival crafting game for iPhone and iPad.',
+  description: 'Build a base by day and defend the obelisk after dark in Wardflame, a top-down survival crafting game for iPhone, iPad and Mac with Game Center co-op.',
   applicationName: 'Wardflame',
   category: 'game',
   alternates: {
@@ -36,8 +36,8 @@ export const rootMetadata: Metadata = {
     type: 'website',
     siteName: 'Wardflame',
     url: '/',
-    title: 'Wardflame — Survival crafting for iPhone and iPad',
-    description: 'Build a base by day and defend the obelisk after dark in Wardflame, a top-down survival crafting game for iPhone and iPad.',
+    title: 'Wardflame — Survival crafting for iPhone, iPad and Mac',
+    description: 'Build a base by day and defend the obelisk after dark in Wardflame, a top-down survival crafting game for iPhone, iPad and Mac with Game Center co-op.',
     images: [
       {
         url: '/media/night.png',
@@ -49,8 +49,8 @@ export const rootMetadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Wardflame — Survival crafting for iPhone and iPad',
-    description: 'Build a base by day and defend the obelisk after dark in Wardflame, a top-down survival crafting game for iPhone and iPad.',
+    title: 'Wardflame — Survival crafting for iPhone, iPad and Mac',
+    description: 'Build a base by day and defend the obelisk after dark in Wardflame, a top-down survival crafting game for iPhone, iPad and Mac with Game Center co-op.',
     images: ['/media/night.png'],
   },
   robots: {

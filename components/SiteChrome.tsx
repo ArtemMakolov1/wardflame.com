@@ -41,12 +41,12 @@ export function SiteHeader({ locale, section = 'home' }: { locale: Locale; secti
 
 export function SiteFooter({ locale }: { locale: Locale }) {
   const copy = {
-    en: { line: 'An independent game for iPhone and iPad', privacy: 'Privacy', support: 'Support', terms: 'Terms' },
-    ru: { line: 'Независимая игра для iPhone и iPad', privacy: 'Конфиденциальность', support: 'Поддержка', terms: 'Условия' },
-    de: { line: 'Ein unabhängiges Spiel für iPhone und iPad', privacy: 'Datenschutz', support: 'Support', terms: 'Bedingungen' },
-    fr: { line: 'Un jeu indépendant pour iPhone et iPad', privacy: 'Confidentialité', support: 'Assistance', terms: 'Conditions' },
-    es: { line: 'Un juego independiente para iPhone y iPad', privacy: 'Privacidad', support: 'Soporte', terms: 'Términos' },
-    tr: { line: 'iPhone ve iPad için bağımsız bir oyun', privacy: 'Gizlilik', support: 'Destek', terms: 'Koşullar' },
+    en: { line: 'An independent game for iPhone, iPad and Mac', privacy: 'Privacy', support: 'Support', terms: 'Terms' },
+    ru: { line: 'Независимая игра для iPhone, iPad и Mac', privacy: 'Конфиденциальность', support: 'Поддержка', terms: 'Условия' },
+    de: { line: 'Ein unabhängiges Spiel für iPhone, iPad und Mac', privacy: 'Datenschutz', support: 'Support', terms: 'Bedingungen' },
+    fr: { line: 'Un jeu indépendant pour iPhone, iPad et Mac', privacy: 'Confidentialité', support: 'Assistance', terms: 'Conditions' },
+    es: { line: 'Un juego independiente para iPhone, iPad y Mac', privacy: 'Privacidad', support: 'Soporte', terms: 'Términos' },
+    tr: { line: 'iPhone, iPad ve Mac için bağımsız bir oyun', privacy: 'Gizlilik', support: 'Destek', terms: 'Koşullar' },
   }[locale];
 
   return (

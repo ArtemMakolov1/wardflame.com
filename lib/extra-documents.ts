@@ -15,15 +15,21 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     privacy: {
       metadataTitle: 'Datenschutzerklärung',
       metadataDescription: 'Wie Wardflame und wardflame.com mit Spieldaten, Käufen, Website-Protokollen, Cookies und Tracking umgehen.',
-      index: 'Datenschutz / 21. Aug. 2026',
+      index: 'Datenschutz / 30. Aug. 2026',
       title: 'Datenschutzerklärung',
       intro: 'Wardflame erhebt keine Spieldaten für Analyse, Werbung oder Tracking.',
       sections: [
         {
           title: 'Das Spiel',
           paragraphs: [
-            'Wardflame erhebt, übermittelt oder verkauft keine personenbezogenen Daten und verwendet sie nicht für Tracking oder Werbung. Das Spiel hat kein Analyse- oder Werbe-Backend.',
+            'Wardflame erhebt oder verkauft keine personenbezogenen Daten und verwendet sie nicht für Tracking oder Werbung. Das Spiel hat kein Analyse- oder Werbe-Backend.',
             'Spielfortschritt, Einstellungen und lokale Diagnoseberichte bleiben auf deinem Gerät. Das Apple-Datenschutzmanifest von Wardflame weist keine erfassten Datentypen und kein Tracking aus.',
+          ],
+        },
+        {
+          title: 'Game-Center-Mehrspieler',
+          paragraphs: [
+            'Game Center wird nur verwendet, wenn du „Mit Freunden spielen“ auswählst: zur Anmeldung, für Einladungen und zur Spielersuche. Spieleridentität, Zusammensetzung der Partie und Spieldaten werden über Apples Dienst zwischen den Teilnehmern übertragen. Wardflame hat keine eigenen Konten oder Spielserver. Apple verarbeitet Game-Center-Daten nach der eigenen Datenschutzrichtlinie.',
           ],
         },
         {
@@ -35,7 +41,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Lokale Daten löschen',
           paragraphs: [
-            'Wenn du Wardflame löschst, werden die lokal gespeicherten Daten der App entfernt. Davon ausgenommen können Sicherungsmechanismen des Geräts und des App Store sein, die von Apple gesteuert werden. Das Spiel führt weder ein Spielerkonto auf einem Server noch ein Cloud-Profil.',
+            'Wenn du Wardflame löschst, werden die lokal gespeicherten Daten der App entfernt. Davon ausgenommen können Sicherungsmechanismen des Geräts und des App Store sein, die von Apple gesteuert werden. Das Spiel führt weder ein eigenes Spielerkonto auf einem Server noch ein eigenes Cloud-Profil.',
           ],
         },
         {
@@ -61,7 +67,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
           ],
         },
       ],
-      date: 'Gültig ab 21. August 2026 · Angaben zur Website aktualisiert am 22. August 2026',
+      date: 'Aktualisiert am 30. August 2026',
     },
     support: {
       metadataTitle: 'Support',
@@ -75,7 +81,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Welche Angaben wir brauchen',
           items: [
-            'Dein iPhone- oder iPad-Modell und deine iOS-/iPadOS-Version.',
+            'Dein iPhone-, iPad- oder Mac-Modell und die Version des Betriebssystems.',
             'Die Wardflame-Version, die in der App angezeigt wird.',
             'Was du getan hast, was passiert ist und was du erwartet hast.',
             'Einen Screenshot oder eine kurze Bildschirmaufnahme, wenn das Problem dadurch verständlicher wird.',
@@ -84,7 +90,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Unterstützte Geräte',
           paragraphs: [
-            'Wardflame unterstützt iPhone und iPad mit iOS beziehungsweise iPadOS 17.0 oder neuer und wird im Querformat gespielt. Das Sprachmenü des Spiels und diese Website sind auf Deutsch, Englisch, Russisch, Französisch, Spanisch und Türkisch verfügbar.',
+            'Wardflame unterstützt iPhone und iPad mit iOS beziehungsweise iPadOS 17.0 oder neuer sowie Mac. Auf Mobilgeräten wird im Querformat gespielt. Das Spiel und diese Website sind auf Deutsch, Englisch, Russisch, Französisch, Spanisch und Türkisch verfügbar.',
           ],
         },
         {
@@ -168,15 +174,21 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     privacy: {
       metadataTitle: 'Politique de confidentialité',
       metadataDescription: 'Comment Wardflame et wardflame.com traitent les données de jeu, les achats, les journaux du site, les cookies et le suivi.',
-      index: 'Confidentialité / 21 août 2026',
+      index: 'Confidentialité / 30 août 2026',
       title: 'Politique de confidentialité',
       intro: 'Wardflame ne collecte aucune donnée de jeu à des fins d’analyse, de publicité ou de suivi.',
       sections: [
         {
           title: 'Le jeu',
           paragraphs: [
-            'Wardflame ne collecte, ne transmet et ne vend aucune donnée personnelle. Il ne les utilise ni à des fins de suivi ni à des fins publicitaires. Le jeu ne dispose d’aucun service d’analyse ni de publicité.',
+            'Wardflame ne collecte et ne vend aucune donnée personnelle. Il ne les utilise ni à des fins de suivi ni à des fins publicitaires. Le jeu ne dispose d’aucun service d’analyse ni de publicité.',
             'Les données de progression, les réglages et les rapports de diagnostic locaux restent sur votre appareil. Le manifeste de confidentialité Apple de Wardflame ne déclare aucune catégorie de données collectée ni aucun suivi.',
+          ],
+        },
+        {
+          title: 'Multijoueur via Game Center',
+          paragraphs: [
+            'Game Center n’est utilisé que si vous choisissez « Jouer entre amis », pour l’authentification, les invitations et la mise en relation. L’identité des joueurs, la composition de la partie et les données de jeu transitent entre les participants via le service d’Apple. Wardflame ne possède ni comptes ni serveurs de jeu propres. Apple traite les données Game Center conformément à sa propre politique de confidentialité.',
           ],
         },
         {
@@ -188,7 +200,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Suppression des données locales',
           paragraphs: [
-            'La suppression de l’app Wardflame efface les données qu’elle stocke localement, sous réserve des mécanismes de sauvegarde de l’appareil et de l’App Store gérés par Apple. Le jeu ne conserve aucun compte de joueur distant ni aucun profil dans le cloud.',
+            'La suppression de l’app Wardflame efface les données qu’elle stocke localement, sous réserve des mécanismes de sauvegarde de l’appareil et de l’App Store gérés par Apple. Le jeu ne conserve aucun compte de joueur distant ni aucun profil dans le cloud qui lui soit propre.',
           ],
         },
         {
@@ -214,7 +226,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
           ],
         },
       ],
-      date: 'En vigueur le 21 août 2026 · Informations relatives au site mises à jour le 22 août 2026',
+      date: 'Mise à jour le 30 août 2026',
     },
     support: {
       metadataTitle: 'Assistance',
@@ -228,7 +240,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Informations à fournir',
           items: [
-            'Le modèle de votre iPhone ou iPad ainsi que la version d’iOS ou d’iPadOS.',
+            'Le modèle de votre iPhone, iPad ou Mac ainsi que la version du système d’exploitation.',
             'La version de Wardflame indiquée dans l’app.',
             'Les étapes suivies, le résultat observé et le résultat attendu.',
             'Une capture d’écran ou un court enregistrement d’écran si cela permet de mieux comprendre le problème.',
@@ -237,7 +249,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Appareils compatibles',
           paragraphs: [
-            'Wardflame prend en charge les iPhone et iPad sous iOS ou iPadOS 17.0 ou version ultérieure et se joue en mode paysage. Le jeu et le site sont disponibles en six langues : français, anglais, russe, allemand, espagnol et turc.',
+            'Wardflame prend en charge les iPhone et iPad sous iOS ou iPadOS 17.0 ou version ultérieure, ainsi que les Mac. La version mobile se joue en mode paysage. Le jeu et le site sont disponibles en français, anglais, russe, allemand, espagnol et turc.',
           ],
         },
         {
@@ -321,15 +333,21 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     privacy: {
       metadataTitle: 'Política de privacidad',
       metadataDescription: 'Cómo gestionan Wardflame y wardflame.com los datos del juego, las compras, los registros del sitio web, las cookies y el seguimiento.',
-      index: 'Privacidad / 21 ago 2026',
+      index: 'Privacidad / 30 ago 2026',
       title: 'Política de privacidad',
       intro: 'Wardflame no recopila datos del juego con fines de análisis, publicidad o seguimiento.',
       sections: [
         {
           title: 'El juego',
           paragraphs: [
-            'Wardflame no recopila, transmite, vende ni utiliza datos personales con fines de seguimiento o publicidad. El juego no utiliza servicios de análisis ni publicidad.',
+            'Wardflame no recopila, vende ni utiliza datos personales con fines de seguimiento o publicidad. El juego no utiliza servicios de análisis ni publicidad.',
             'Los datos de progreso, los ajustes y los informes de diagnóstico locales permanecen en tu dispositivo. El manifiesto de privacidad de Apple incluido con Wardflame declara que no se recopila ningún tipo de dato ni se realiza seguimiento.',
+          ],
+        },
+        {
+          title: 'Multijugador mediante Game Center',
+          paragraphs: [
+            'Game Center solo se utiliza cuando eliges «Jugar con amigos», para iniciar sesión, enviar invitaciones y crear la partida. La identidad de los jugadores, la composición de la partida y los datos de juego pasan entre los participantes a través del servicio de Apple. Wardflame no tiene cuentas ni servidores de juego propios. Apple trata los datos de Game Center conforme a su propia política de privacidad.',
           ],
         },
         {
@@ -341,7 +359,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Eliminación de datos locales',
           paragraphs: [
-            'Al eliminar Wardflame se borran los datos almacenados localmente, sin perjuicio de los mecanismos de copia de seguridad del dispositivo y del App Store controlados por Apple. El juego no mantiene cuentas de jugador ni perfiles en la nube.',
+            'Al eliminar Wardflame se borran los datos almacenados localmente, sin perjuicio de los mecanismos de copia de seguridad del dispositivo y del App Store controlados por Apple. El juego no mantiene cuentas de jugador ni perfiles en la nube propios.',
           ],
         },
         {
@@ -367,7 +385,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
           ],
         },
       ],
-      date: 'En vigor desde el 21 de agosto de 2026 · Información del sitio web actualizada el 22 de agosto de 2026',
+      date: 'Actualizada el 30 de agosto de 2026',
     },
     support: {
       metadataTitle: 'Soporte',
@@ -381,7 +399,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Qué debes incluir',
           items: [
-            'El modelo de tu iPhone o iPad y la versión de iOS/iPadOS.',
+            'El modelo de tu iPhone, iPad o Mac y la versión del sistema operativo.',
             'La versión de Wardflame que se muestra en la aplicación.',
             'Qué hiciste, qué ocurrió y qué esperabas que ocurriera.',
             'Una captura de pantalla o una breve grabación de pantalla cuando ayude a explicar el problema.',
@@ -390,7 +408,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Dispositivos compatibles',
           paragraphs: [
-            'Wardflame es compatible con iPhone y iPad que usen iOS 17.0, iPadOS 17.0 o versiones posteriores, y se juega en horizontal. El menú de idiomas del juego y este sitio web están disponibles en español, inglés, ruso, alemán, francés y turco.',
+            'Wardflame es compatible con iPhone y iPad que usen iOS 17.0, iPadOS 17.0 o versiones posteriores, así como con Mac. En móviles se juega en horizontal. El juego y este sitio web están disponibles en español, inglés, ruso, alemán, francés y turco.',
           ],
         },
         {
@@ -474,15 +492,21 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
     privacy: {
       metadataTitle: 'Gizlilik Politikası',
       metadataDescription: 'Wardflame ve wardflame.com oyun verilerini, satın alımları, web sitesi günlüklerini, çerezleri ve izlemeyi nasıl ele alır.',
-      index: 'Gizlilik / 21 Ağu 2026',
+      index: 'Gizlilik / 30 Ağu 2026',
       title: 'Gizlilik Politikası',
       intro: 'Wardflame analiz, reklam veya izleme amacıyla oyun verisi toplamaz.',
       sections: [
         {
           title: 'Oyun',
           paragraphs: [
-            'Wardflame kişisel verileri toplamaz, iletmez, satmaz; izleme veya reklam amacıyla kullanmaz. Oyunda analiz ya da reklam arka ucu bulunmaz.',
+            'Wardflame kişisel verileri toplamaz veya satmaz; izleme ya da reklam amacıyla kullanmaz. Oyunda analiz veya reklam arka ucu bulunmaz.',
             'Oyun ilerlemesi, ayarlar ve yerel tanılama raporları cihazınızda kalır. Wardflame’in Apple gizlilik manifesti, hiçbir veri türünün toplanmadığını ve izleme yapılmadığını beyan eder.',
+          ],
+        },
+        {
+          title: 'Game Center çok oyunculu oyun',
+          paragraphs: [
+            'Game Center yalnızca Arkadaşlarınla Oyna seçildiğinde giriş, davetler ve eşleştirme için kullanılır. Oyuncu kimliği, maç kadrosu ve oyun verileri Apple’ın hizmeti üzerinden katılımcılar arasında iletilir. Wardflame’in kendine ait hesapları veya oyun sunucuları yoktur. Apple, Game Center verilerini kendi gizlilik politikası kapsamında işler.',
           ],
         },
         {
@@ -494,7 +518,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Yerel verileri silme',
           paragraphs: [
-            'Wardflame’i silmek, Apple’ın kontrol ettiği cihaz ve App Store yedekleme mekanizmalarına tabi olarak, yerel olarak saklanan verileri kaldırır. Oyun uzaktaki bir oyuncu hesabı veya bulut profili tutmaz.',
+            'Wardflame’i silmek, Apple’ın kontrol ettiği cihaz ve App Store yedekleme mekanizmalarına tabi olarak, yerel olarak saklanan verileri kaldırır. Oyunun kendine ait uzaktaki bir oyuncu hesabı veya bulut profili yoktur.',
           ],
         },
         {
@@ -520,7 +544,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
           ],
         },
       ],
-      date: '21 Ağustos 2026 tarihinde yürürlüğe girdi · Web sitesi ayrıntıları 22 Ağustos 2026 tarihinde güncellendi',
+      date: '30 Ağustos 2026 tarihinde güncellendi',
     },
     support: {
       metadataTitle: 'Destek',
@@ -534,7 +558,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Neleri eklemelisiniz',
           items: [
-            'iPhone veya iPad modeliniz ile iOS/iPadOS sürümü.',
+            'iPhone, iPad veya Mac modeliniz ile işletim sistemi sürümü.',
             'Uygulamada gösterilen Wardflame sürümü.',
             'Ne yaptığınız, ne olduğu ve ne olmasını beklediğiniz.',
             'Sorunu açıklamaya yardımcı olacaksa ekran görüntüsü veya kısa bir ekran kaydı.',
@@ -543,7 +567,7 @@ export const extraDocuments: Record<ExtraLocale, Record<DocumentKind, DocumentCo
         {
           title: 'Desteklenen cihazlar',
           paragraphs: [
-            'Wardflame, iOS veya iPadOS 17.0 ya da sonraki bir sürümü çalıştıran iPhone ve iPad cihazlarını destekler ve yatay konumda oynanır. Oyunun dil menüsü ve bu web sitesi Türkçe, İngilizce, Rusça, Almanca, Fransızca ve İspanyolca olarak sunulur.',
+            'Wardflame, iOS veya iPadOS 17.0 ya da sonraki bir sürümü çalıştıran iPhone ve iPad cihazlarının yanı sıra Mac’i destekler. Mobil sürüm yatay konumda oynanır. Oyun ve bu web sitesi Türkçe, İngilizce, Rusça, Almanca, Fransızca ve İspanyolca olarak sunulur.',
           ],
         },
         {

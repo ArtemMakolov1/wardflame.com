@@ -1,6 +1,6 @@
 # Wardflame website
 
-Official multilingual website for Wardflame, a survival crafting and base-defense game for iPhone and iPad.
+Official multilingual website for Wardflame, a survival crafting and base-defense game for iPhone, iPad, and Mac.
 
 ## Stack
 
