@@ -36,8 +36,7 @@ const content = {
     progressIndex: '04 / Progression',
     progressTitle: 'From hand tools to an industrial settlement.',
     progressText: 'Research opens complete production chains: smelt ore into ingots, forge steel, assemble mechanisms, refine neftanium into fuel, and finally fabricate nanoscale materials.',
-    techCaption: 'Technology tree · Electricity and neftanium',
-    craftCaption: 'Workbench · Equipment crafting',
+    industryCaption: 'Industrial chain · Extraction, smelting and mechanical power',
     releaseIndex: '05 / Release',
     releaseTitle: 'Play the first day and night free.',
     releaseText: 'A single purchase unlocks the complete game: every night, era, technology, building, weapon, and armor set. At release, the App Store will show the price for your region.',
@@ -76,8 +75,7 @@ const content = {
     progressIndex: '04 / Развитие',
     progressTitle: 'От ручного труда до промышленного поселения.',
     progressText: 'Исследования открывают полноценные производственные цепочки: плавь руду в слитки, куй сталь, собирай механизмы, перерабатывай нефтяниум в топливо и выходи к наноматериалам.',
-    techCaption: 'Дерево технологий · Электричество и нефтяниум',
-    craftCaption: 'Верстак · Создание снаряжения',
+    industryCaption: 'Промышленная цепочка · Добыча, плавка и механическая энергия',
     releaseIndex: '05 / Выпуск',
     releaseTitle: 'Первый день и первая ночь — бесплатно.',
     releaseText: 'Одна покупка открывает полную игру: все ночи, эпохи, технологии, постройки, оружие и броню. После выпуска App Store покажет цену для вашего региона.',
@@ -116,8 +114,7 @@ const content = {
     progressIndex: '04 / Fortschritt',
     progressTitle: 'Von Handwerkzeugen zur Industriesiedlung.',
     progressText: 'Forschung öffnet vollständige Produktionsketten: Verhütte Erz zu Barren, schmiede Stahl, montiere Mechanismen, raffiniere Neftanium zu Treibstoff und fertige schließlich Nanomaterialien.',
-    techCaption: 'Technologiebaum · Elektrizität und Neftanium',
-    craftCaption: 'Werkbank · Ausrüstung fertigen',
+    industryCaption: 'Industriekette · Förderung, Verhüttung und mechanische Energie',
     releaseIndex: '05 / Veröffentlichung',
     releaseTitle: 'Spiele den ersten Tag und die erste Nacht kostenlos.',
     releaseText: 'Ein einmaliger Kauf schaltet das vollständige Spiel frei: alle Nächte, Epochen, Technologien, Gebäude, Waffen und Rüstungssets. Zur Veröffentlichung zeigt der App Store den Preis für deine Region an.',
@@ -156,8 +153,7 @@ const content = {
     progressIndex: '04 / Progression',
     progressTitle: 'Des outils manuels à une colonie industrielle.',
     progressText: 'La recherche ouvre des chaînes de production complètes : fondez le minerai en lingots, forgez l’acier, assemblez des mécanismes, raffinez le neftanium en carburant, puis fabriquez des nanomatériaux.',
-    techCaption: 'Arbre technologique · Électricité et neftanium',
-    craftCaption: 'Établi · Fabrication d’équipement',
+    industryCaption: 'Chaîne industrielle · Extraction, fonderie et énergie mécanique',
     releaseIndex: '05 / Sortie',
     releaseTitle: 'Le premier jour et la première nuit sont gratuits.',
     releaseText: 'Un achat intégré unique et non consommable débloque le jeu complet : toutes les nuits, les ères, les technologies, les bâtiments, les armes et les armures. Lors de la sortie, l’App Store affichera le prix dans votre région.',
@@ -196,8 +192,7 @@ const content = {
     progressIndex: '04 / Progresión',
     progressTitle: 'De las herramientas manuales a una colonia industrial.',
     progressText: 'La investigación abre cadenas de producción completas: funde mineral en lingotes, forja acero, ensambla mecanismos, refina neftanio para obtener combustible y fabrica nanomateriales.',
-    techCaption: 'Árbol tecnológico · Electricidad y neftanio',
-    craftCaption: 'Banco de trabajo · Fabricación de equipo',
+    industryCaption: 'Cadena industrial · Extracción, fundición y energía mecánica',
     releaseIndex: '05 / Lanzamiento',
     releaseTitle: 'Juega gratis el primer día y la primera noche.',
     releaseText: 'Una única compra integrada no consumible desbloquea el juego completo: todas las noches, eras, tecnologías, edificios, armas y conjuntos de armadura. En el lanzamiento, el App Store mostrará el precio para tu región.',
@@ -236,8 +231,7 @@ const content = {
     progressIndex: '04 / İlerleme',
     progressTitle: 'El aletlerinden sanayi yerleşimine.',
     progressText: 'Araştırma tam üretim zincirleri açar: cevheri külçeye erit, çelik döv, mekanizmalar üret, neftanyumu yakıta dönüştür ve sonunda nano malzemeler imal et.',
-    techCaption: 'Teknoloji ağacı · Elektrik ve neftanyum',
-    craftCaption: 'Tezgâh · Ekipman üretimi',
+    industryCaption: 'Sanayi zinciri · Madencilik, eritme ve mekanik enerji',
     releaseIndex: '05 / Çıkış',
     releaseTitle: 'İlk gündüzü ve ilk geceyi ücretsiz oyna.',
     releaseText: 'Tek seferlik, tüketilemeyen bir uygulama içi satın alım eksiksiz oyunun kilidini açar: tüm geceler, çağlar, teknolojiler, yapılar, silahlar ve zırh setleri. Çıkışta App Store bölgenize ait fiyatı gösterecek.',
@@ -252,8 +246,7 @@ const mediaCopy: Record<Locale, {
   nightAlt: string;
   powerAlt: string;
   friendsAlt: string;
-  techAlt: string;
-  craftAlt: string;
+  industryAlt: string;
 }> = {
   en: {
     schemaDescription: 'A pixel-art survival crafting and base-defense game for iPhone, iPad, and Mac, with Game Center co-op for two or three players.',
@@ -262,8 +255,7 @@ const mediaCopy: Record<Locale, {
     nightAlt: 'Defending the base during a special night',
     powerAlt: 'Wardflame power network connecting the base machinery',
     friendsAlt: 'Three players defending one shared Wardflame world and base',
-    techAlt: 'Wardflame technology tree',
-    craftAlt: 'Crafting a weapon at the workbench',
+    industryAlt: 'A Wardflame industrial base with drills, a smelter, and mechanical machinery',
   },
   ru: {
     schemaDescription: 'Пиксельная выживалка с крафтом и обороной базы для iPhone, iPad и Mac с совместной игрой через Game Center на двух или трёх игроков.',
@@ -272,8 +264,7 @@ const mediaCopy: Record<Locale, {
     nightAlt: 'Оборона базы в особую ночь',
     powerAlt: 'Энергосеть Wardflame соединяет базовые машины',
     friendsAlt: 'Три игрока защищают один общий мир и базу Wardflame',
-    techAlt: 'Дерево технологий Wardflame',
-    craftAlt: 'Создание оружия на верстаке',
+    industryAlt: 'Промышленная база Wardflame с бурами, плавильной печью и механизмами',
   },
   de: {
     schemaDescription: 'Ein Pixel-Art-Spiel für iPhone, iPad und Mac rund um Überleben, Crafting und Basisverteidigung, mit Game-Center-Koop für zwei oder drei Spieler.',
@@ -282,8 +273,7 @@ const mediaCopy: Record<Locale, {
     nightAlt: 'Verteidigung der Basis in einer besonderen Nacht',
     powerAlt: 'Das Energienetz von Wardflame verbindet die Maschinen der Basis',
     friendsAlt: 'Drei Spieler verteidigen eine gemeinsame Welt und Basis in Wardflame',
-    techAlt: 'Der Technologiebaum von Wardflame',
-    craftAlt: 'Eine Waffe wird an der Werkbank gefertigt',
+    industryAlt: 'Eine Wardflame-Industriebasis mit Bohrern, Schmelzofen und Maschinen',
   },
   fr: {
     schemaDescription: 'Un jeu de survie, d’artisanat et de défense de base en pixel art pour iPhone, iPad et Mac, jouable à deux ou trois via Game Center.',
@@ -292,8 +282,7 @@ const mediaCopy: Record<Locale, {
     nightAlt: 'Défense de la base pendant une nuit spéciale',
     powerAlt: 'Le réseau électrique de Wardflame relie les machines de la base',
     friendsAlt: 'Trois joueurs défendent un monde et une base partagés dans Wardflame',
-    techAlt: 'L’arbre technologique de Wardflame',
-    craftAlt: 'Fabrication d’une arme à l’établi',
+    industryAlt: 'Une base industrielle de Wardflame avec foreuses, fonderie et machines',
   },
   es: {
     schemaDescription: 'Un juego de supervivencia, fabricación y defensa de bases con gráficos pixel art para iPhone, iPad y Mac, con cooperativo para dos o tres jugadores mediante Game Center.',
@@ -302,8 +291,7 @@ const mediaCopy: Record<Locale, {
     nightAlt: 'Defensa de la base durante una noche especial',
     powerAlt: 'La red eléctrica de Wardflame conecta las máquinas de la base',
     friendsAlt: 'Tres jugadores defienden un mundo y una base compartidos en Wardflame',
-    techAlt: 'Árbol tecnológico de Wardflame',
-    craftAlt: 'Fabricación de un arma en el banco de trabajo',
+    industryAlt: 'Una base industrial de Wardflame con perforadoras, fundición y maquinaria',
   },
   tr: {
     schemaDescription: 'iPhone, iPad ve Mac için piksel grafikli bir hayatta kalma, üretim ve üs savunma oyunu; Game Center üzerinden iki veya üç oyunculu ortak oyun sunar.',
@@ -312,8 +300,7 @@ const mediaCopy: Record<Locale, {
     nightAlt: 'Özel bir gecede üssü savunma',
     powerAlt: 'Wardflame enerji şebekesi üs makinelerini birbirine bağlıyor',
     friendsAlt: 'Üç oyuncu Wardflame’de aynı dünyayı ve üssü savunuyor',
-    techAlt: 'Wardflame teknoloji ağacı',
-    craftAlt: 'Tezgâhta silah üretimi',
+    industryAlt: 'Sondajlar, eritme ocağı ve makineler içeren bir Wardflame sanayi üssü',
   },
 };
 
@@ -446,12 +433,8 @@ export function Landing({ locale }: { locale: Locale }) {
           </div>
           <div className="progress-media">
             <figure>
-              <Image src={`/media/tech-${locale}.png`} width={2622} height={1206} sizes="(max-width: 900px) 100vw, 68vw" alt={media.techAlt} />
-              <figcaption>{t.techCaption}</figcaption>
-            </figure>
-            <figure className="craft-frame">
-              <Image src={`/media/craft-${locale}.png`} width={2622} height={1206} sizes="(max-width: 900px) 100vw, 42vw" alt={media.craftAlt} />
-              <figcaption>{t.craftCaption}</figcaption>
+              <Image src="/media/industry.png" width={2868} height={1320} sizes="100vw" alt={media.industryAlt} />
+              <figcaption>{t.industryCaption}</figcaption>
             </figure>
           </div>
         </section>

@@ -405,14 +405,9 @@ img { max-width: 100%; }
 
 .progress-media {
   margin-top: clamp(70px, 8vw, 116px);
-  display: grid;
-  grid-template-columns: 1.35fr .65fr;
-  gap: 18px;
-  align-items: end;
 }
 
 .progress-media img { outline: 1px solid var(--line); outline-offset: -1px; }
-.craft-frame { margin-bottom: 8%; }
 
 .release {
   padding: clamp(96px, 12vw, 180px) max(32px, calc((100vw - 1400px) / 2));
@@ -519,7 +514,6 @@ a:focus-visible {
   .progress-copy > p:last-child,
   .multiplayer-copy > p:last-child { grid-column: 1; }
   .progress-media { grid-template-columns: 1fr; gap: 46px; }
-  .craft-frame { margin: 0; }
   .info-hero > p:last-child { grid-column: 1; }
   .site-footer { grid-template-columns: 1fr; }
   .copyright { grid-column: 1; }
